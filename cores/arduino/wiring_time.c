@@ -22,22 +22,22 @@
 extern "C" {
 #endif
 
-uint32_t millis(void)
+unsigned long millis(void)
 {
   // ToDo: ensure no interrupts
   return getCurrentMillis();
 }
 
 // Interrupt-compatible version of micros
-uint32_t micros(void)
+unsigned long micros(void)
 {
   return getCurrentMicros();
 }
 
-void delay(uint32_t ms)
+void delay(unsigned long ms)
 {
   if (ms != 0) {
-    uint32_t start = getCurrentMillis();
+    unsigned long start = getCurrentMillis();
     do {
       yield();
     } while (getCurrentMillis() - start < ms);

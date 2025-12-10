@@ -27,7 +27,7 @@
   * \param frequency Tone frequency (in hertz)
   * \param duration  Tone duration (in milliseconds)
   */
-  extern void tone(uint8_t _pin, unsigned int frequency, unsigned long duration = 0);
+  // extern void tone(uint8_t _pin, unsigned int frequency, unsigned long duration = 0);
 
   /*
   * \brief Stop tone generation on pin.
