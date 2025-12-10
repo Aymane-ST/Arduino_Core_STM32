@@ -16,7 +16,7 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-#include "WInterrupts.h"
+
 #include "Arduino.h"
 
 #include "PinAF_STM32F1.h"
@@ -63,7 +63,7 @@ void attachInterrupt(pin_size_t interruptNumber, voidFuncPtr callback, PinStatus
 #endif
 }
 
-// void attachInterrupt(uint32_t pin, void (*callback)(void), uint32_t mode)
+// void attachInterrupt(pin_size_t pin, void (*callback)(void), PinStatus mode)
 // {
 // #if !defined(HAL_EXTI_MODULE_DISABLED)
 //   callback_function_t _c = callback;

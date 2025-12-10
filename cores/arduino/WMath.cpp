@@ -20,7 +20,6 @@ extern "C" {
 #include "stdlib.h"
 #include "stdint.h"
 }
-#include "WMath.h"
 #include "Arduino.h"
 
 void randomSeed(unsigned long dwSeed)
