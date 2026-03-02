@@ -15438,6 +15438,8 @@ Nucleo_32.menu.xusb.HSFS=High Speed in Full Speed mode
 Nucleo_32.menu.xusb.HSFS.build.usb_speed=-DUSE_USB_HS -DUSE_USB_HS_IN_FS
 
 Disco.menu.usb.none=None
+Disco.menu.usb.pluggable=PluggableUSB
+Disco.menu.usb.pluggable.build.enable_usb=-DUSBCON -DPLUGGABLE_USB_ENABLED -DHAL_PCD_MODULE_ENABLED
 Disco.menu.usb.CDCgen=CDC (generic 'Serial' supersede U(S)ART)
 Disco.menu.usb.CDCgen.build.enable_usb={build.usb_flags} -DUSBD_USE_CDC
 Disco.menu.usb.CDC=CDC (no generic 'Serial')
