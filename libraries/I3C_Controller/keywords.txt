@@ -1,0 +1,23 @@
+I3CBus	KEYWORD1
+I3CDiscoveredDevice	KEYWORD1
+I3CAddressController	KEYWORD1
+LPS22DFSensor	KEYWORD1
+
+begin	KEYWORD2
+writeRegister	KEYWORD2
+readRegister	KEYWORD2
+writeRegisterBlock	KEYWORD2
+readRegisterBlock	KEYWORD2
+isI2CDeviceReady	KEYWORD2
+isI3CDeviceReady	KEYWORD2
+rstdaaOnce	KEYWORD2
+disecOnce	KEYWORD2
+setdasa	KEYWORD2
+entdaa	KEYWORD2
+setBusFrequency	KEYWORD2
+
+GetPressure	KEYWORD2
+GetTemperature	KEYWORD2
+Enable	KEYWORD2
+Disable	KEYWORD2
+ReadID	KEYWORD2
