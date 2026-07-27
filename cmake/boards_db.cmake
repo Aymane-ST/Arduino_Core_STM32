@@ -1118,6 +1118,9 @@ target_compile_options(BLACK_F407VE_usb_HID INTERFACE
 add_library(BLACK_F407VE_usb_none INTERFACE)
 target_compile_options(BLACK_F407VE_usb_none INTERFACE
 )
+add_library(BLACK_F407VE_usb_TinyUSB INTERFACE)
+target_compile_options(BLACK_F407VE_usb_TinyUSB INTERFACE
+)
 add_library(BLACK_F407VE_xusb_FS INTERFACE)
 target_compile_options(BLACK_F407VE_xusb_FS INTERFACE
 )
@@ -1240,6 +1243,9 @@ target_compile_options(BLACK_F407VG_usb_HID INTERFACE
 )
 add_library(BLACK_F407VG_usb_none INTERFACE)
 target_compile_options(BLACK_F407VG_usb_none INTERFACE
+)
+add_library(BLACK_F407VG_usb_TinyUSB INTERFACE)
+target_compile_options(BLACK_F407VG_usb_TinyUSB INTERFACE
 )
 add_library(BLACK_F407VG_xusb_FS INTERFACE)
 target_compile_options(BLACK_F407VG_xusb_FS INTERFACE
@@ -1364,6 +1370,9 @@ target_compile_options(BLACK_F407ZE_usb_HID INTERFACE
 add_library(BLACK_F407ZE_usb_none INTERFACE)
 target_compile_options(BLACK_F407ZE_usb_none INTERFACE
 )
+add_library(BLACK_F407ZE_usb_TinyUSB INTERFACE)
+target_compile_options(BLACK_F407ZE_usb_TinyUSB INTERFACE
+)
 add_library(BLACK_F407ZE_xusb_FS INTERFACE)
 target_compile_options(BLACK_F407ZE_xusb_FS INTERFACE
 )
@@ -1487,6 +1496,9 @@ target_compile_options(BLACK_F407ZG_usb_HID INTERFACE
 add_library(BLACK_F407ZG_usb_none INTERFACE)
 target_compile_options(BLACK_F407ZG_usb_none INTERFACE
 )
+add_library(BLACK_F407ZG_usb_TinyUSB INTERFACE)
+target_compile_options(BLACK_F407ZG_usb_TinyUSB INTERFACE
+)
 add_library(BLACK_F407ZG_xusb_FS INTERFACE)
 target_compile_options(BLACK_F407ZG_xusb_FS INTERFACE
 )
@@ -1606,6 +1618,9 @@ target_compile_options(BLACKPILL_F103C8_usb_HID INTERFACE
 )
 add_library(BLACKPILL_F103C8_usb_none INTERFACE)
 target_compile_options(BLACKPILL_F103C8_usb_none INTERFACE
+)
+add_library(BLACKPILL_F103C8_usb_TinyUSB INTERFACE)
+target_compile_options(BLACKPILL_F103C8_usb_TinyUSB INTERFACE
 )
 add_library(BLACKPILL_F103C8_xusb_FS INTERFACE)
 target_compile_options(BLACKPILL_F103C8_xusb_FS INTERFACE
@@ -1803,6 +1818,9 @@ target_compile_options(BLACKPILL_F103CB_usb_HID INTERFACE
 )
 add_library(BLACKPILL_F103CB_usb_none INTERFACE)
 target_compile_options(BLACKPILL_F103CB_usb_none INTERFACE
+)
+add_library(BLACKPILL_F103CB_usb_TinyUSB INTERFACE)
+target_compile_options(BLACKPILL_F103CB_usb_TinyUSB INTERFACE
 )
 add_library(BLACKPILL_F103CB_xusb_FS INTERFACE)
 target_compile_options(BLACKPILL_F103CB_xusb_FS INTERFACE
@@ -2083,6 +2101,9 @@ target_compile_options(BLACKPILL_F401CC_usb_HID INTERFACE
 add_library(BLACKPILL_F401CC_usb_none INTERFACE)
 target_compile_options(BLACKPILL_F401CC_usb_none INTERFACE
 )
+add_library(BLACKPILL_F401CC_usb_TinyUSB INTERFACE)
+target_compile_options(BLACKPILL_F401CC_usb_TinyUSB INTERFACE
+)
 add_library(BLACKPILL_F401CC_xusb_FS INTERFACE)
 target_compile_options(BLACKPILL_F401CC_xusb_FS INTERFACE
 )
@@ -2205,6 +2226,9 @@ target_compile_options(BLACKPILL_F401CE_usb_HID INTERFACE
 )
 add_library(BLACKPILL_F401CE_usb_none INTERFACE)
 target_compile_options(BLACKPILL_F401CE_usb_none INTERFACE
+)
+add_library(BLACKPILL_F401CE_usb_TinyUSB INTERFACE)
+target_compile_options(BLACKPILL_F401CE_usb_TinyUSB INTERFACE
 )
 add_library(BLACKPILL_F401CE_xusb_FS INTERFACE)
 target_compile_options(BLACKPILL_F401CE_xusb_FS INTERFACE
@@ -2329,6 +2353,9 @@ target_compile_options(BLACKPILL_F411CE_usb_HID INTERFACE
 add_library(BLACKPILL_F411CE_usb_none INTERFACE)
 target_compile_options(BLACKPILL_F411CE_usb_none INTERFACE
 )
+add_library(BLACKPILL_F411CE_usb_TinyUSB INTERFACE)
+target_compile_options(BLACKPILL_F411CE_usb_TinyUSB INTERFACE
+)
 add_library(BLACKPILL_F411CE_xusb_FS INTERFACE)
 target_compile_options(BLACKPILL_F411CE_xusb_FS INTERFACE
 )
@@ -2452,6 +2479,9 @@ target_compile_options(BLUE_F407VE_MINI_usb_HID INTERFACE
 add_library(BLUE_F407VE_MINI_usb_none INTERFACE)
 target_compile_options(BLUE_F407VE_MINI_usb_none INTERFACE
 )
+add_library(BLUE_F407VE_MINI_usb_TinyUSB INTERFACE)
+target_compile_options(BLUE_F407VE_MINI_usb_TinyUSB INTERFACE
+)
 add_library(BLUE_F407VE_MINI_xusb_FS INTERFACE)
 target_compile_options(BLUE_F407VE_MINI_xusb_FS INTERFACE
 )
@@ -2571,6 +2601,9 @@ target_compile_options(BLUEBUTTON_F103R8T_usb_HID INTERFACE
 )
 add_library(BLUEBUTTON_F103R8T_usb_none INTERFACE)
 target_compile_options(BLUEBUTTON_F103R8T_usb_none INTERFACE
+)
+add_library(BLUEBUTTON_F103R8T_usb_TinyUSB INTERFACE)
+target_compile_options(BLUEBUTTON_F103R8T_usb_TinyUSB INTERFACE
 )
 add_library(BLUEBUTTON_F103R8T_xusb_FS INTERFACE)
 target_compile_options(BLUEBUTTON_F103R8T_xusb_FS INTERFACE
@@ -2769,6 +2802,9 @@ target_compile_options(BLUEBUTTON_F103RBT_usb_HID INTERFACE
 add_library(BLUEBUTTON_F103RBT_usb_none INTERFACE)
 target_compile_options(BLUEBUTTON_F103RBT_usb_none INTERFACE
 )
+add_library(BLUEBUTTON_F103RBT_usb_TinyUSB INTERFACE)
+target_compile_options(BLUEBUTTON_F103RBT_usb_TinyUSB INTERFACE
+)
 add_library(BLUEBUTTON_F103RBT_xusb_FS INTERFACE)
 target_compile_options(BLUEBUTTON_F103RBT_xusb_FS INTERFACE
 )
@@ -2965,6 +3001,9 @@ target_compile_options(BLUEBUTTON_F103RCT_usb_HID INTERFACE
 )
 add_library(BLUEBUTTON_F103RCT_usb_none INTERFACE)
 target_compile_options(BLUEBUTTON_F103RCT_usb_none INTERFACE
+)
+add_library(BLUEBUTTON_F103RCT_usb_TinyUSB INTERFACE)
+target_compile_options(BLUEBUTTON_F103RCT_usb_TinyUSB INTERFACE
 )
 add_library(BLUEBUTTON_F103RCT_xusb_FS INTERFACE)
 target_compile_options(BLUEBUTTON_F103RCT_xusb_FS INTERFACE
@@ -3163,6 +3202,9 @@ target_compile_options(BLUEBUTTON_F103RET_usb_HID INTERFACE
 add_library(BLUEBUTTON_F103RET_usb_none INTERFACE)
 target_compile_options(BLUEBUTTON_F103RET_usb_none INTERFACE
 )
+add_library(BLUEBUTTON_F103RET_usb_TinyUSB INTERFACE)
+target_compile_options(BLUEBUTTON_F103RET_usb_TinyUSB INTERFACE
+)
 add_library(BLUEBUTTON_F103RET_xusb_FS INTERFACE)
 target_compile_options(BLUEBUTTON_F103RET_xusb_FS INTERFACE
 )
@@ -3359,6 +3401,9 @@ target_compile_options(BLUEPILL_F103C6_usb_HID INTERFACE
 )
 add_library(BLUEPILL_F103C6_usb_none INTERFACE)
 target_compile_options(BLUEPILL_F103C6_usb_none INTERFACE
+)
+add_library(BLUEPILL_F103C6_usb_TinyUSB INTERFACE)
+target_compile_options(BLUEPILL_F103C6_usb_TinyUSB INTERFACE
 )
 add_library(BLUEPILL_F103C6_xusb_FS INTERFACE)
 target_compile_options(BLUEPILL_F103C6_xusb_FS INTERFACE
@@ -3557,6 +3602,9 @@ target_compile_options(BLUEPILL_F103C8_usb_HID INTERFACE
 add_library(BLUEPILL_F103C8_usb_none INTERFACE)
 target_compile_options(BLUEPILL_F103C8_usb_none INTERFACE
 )
+add_library(BLUEPILL_F103C8_usb_TinyUSB INTERFACE)
+target_compile_options(BLUEPILL_F103C8_usb_TinyUSB INTERFACE
+)
 add_library(BLUEPILL_F103C8_xusb_FS INTERFACE)
 target_compile_options(BLUEPILL_F103C8_xusb_FS INTERFACE
 )
@@ -3753,6 +3801,9 @@ target_compile_options(BLUEPILL_F103CB_usb_HID INTERFACE
 )
 add_library(BLUEPILL_F103CB_usb_none INTERFACE)
 target_compile_options(BLUEPILL_F103CB_usb_none INTERFACE
+)
+add_library(BLUEPILL_F103CB_usb_TinyUSB INTERFACE)
+target_compile_options(BLUEPILL_F103CB_usb_TinyUSB INTERFACE
 )
 add_library(BLUEPILL_F103CB_xusb_FS INTERFACE)
 target_compile_options(BLUEPILL_F103CB_xusb_FS INTERFACE
@@ -3953,6 +4004,9 @@ target_compile_options(CoreBoard_F401RC_usb_HID INTERFACE
 )
 add_library(CoreBoard_F401RC_usb_none INTERFACE)
 target_compile_options(CoreBoard_F401RC_usb_none INTERFACE
+)
+add_library(CoreBoard_F401RC_usb_TinyUSB INTERFACE)
+target_compile_options(CoreBoard_F401RC_usb_TinyUSB INTERFACE
 )
 add_library(CoreBoard_F401RC_xusb_FS INTERFACE)
 target_compile_options(CoreBoard_F401RC_xusb_FS INTERFACE
@@ -4393,6 +4447,9 @@ target_compile_options(DATABOARD_usb_HID INTERFACE
 )
 add_library(DATABOARD_usb_none INTERFACE)
 target_compile_options(DATABOARD_usb_none INTERFACE
+)
+add_library(DATABOARD_usb_TinyUSB INTERFACE)
+target_compile_options(DATABOARD_usb_TinyUSB INTERFACE
 )
 add_library(DATABOARD_xusb_FS INTERFACE)
 target_compile_options(DATABOARD_xusb_FS INTERFACE
@@ -5869,6 +5926,9 @@ target_compile_options(DIYMORE_F407VGT_usb_HID INTERFACE
 add_library(DIYMORE_F407VGT_usb_none INTERFACE)
 target_compile_options(DIYMORE_F407VGT_usb_none INTERFACE
 )
+add_library(DIYMORE_F407VGT_usb_TinyUSB INTERFACE)
+target_compile_options(DIYMORE_F407VGT_usb_TinyUSB INTERFACE
+)
 add_library(DIYMORE_F407VGT_xusb_FS INTERFACE)
 target_compile_options(DIYMORE_F407VGT_xusb_FS INTERFACE
 )
@@ -6374,6 +6434,9 @@ target_compile_options(FEATHER_F405_usb_HID INTERFACE
 add_library(FEATHER_F405_usb_none INTERFACE)
 target_compile_options(FEATHER_F405_usb_none INTERFACE
 )
+add_library(FEATHER_F405_usb_TinyUSB INTERFACE)
+target_compile_options(FEATHER_F405_usb_TinyUSB INTERFACE
+)
 add_library(FEATHER_F405_xusb_FS INTERFACE)
 target_compile_options(FEATHER_F405_xusb_FS INTERFACE
 )
@@ -6496,6 +6559,9 @@ target_compile_options(FK407M1_usb_HID INTERFACE
 )
 add_library(FK407M1_usb_none INTERFACE)
 target_compile_options(FK407M1_usb_none INTERFACE
+)
+add_library(FK407M1_usb_TinyUSB INTERFACE)
+target_compile_options(FK407M1_usb_TinyUSB INTERFACE
 )
 add_library(FK407M1_xusb_FS INTERFACE)
 target_compile_options(FK407M1_xusb_FS INTERFACE
@@ -15081,6 +15147,9 @@ target_compile_options(GENERIC_F100C4TX_usb_HID INTERFACE
 add_library(GENERIC_F100C4TX_usb_none INTERFACE)
 target_compile_options(GENERIC_F100C4TX_usb_none INTERFACE
 )
+add_library(GENERIC_F100C4TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F100C4TX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F100C4TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F100C4TX_xusb_FS INTERFACE
 )
@@ -15277,6 +15346,9 @@ target_compile_options(GENERIC_F100C6TX_usb_HID INTERFACE
 )
 add_library(GENERIC_F100C6TX_usb_none INTERFACE)
 target_compile_options(GENERIC_F100C6TX_usb_none INTERFACE
+)
+add_library(GENERIC_F100C6TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F100C6TX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F100C6TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F100C6TX_xusb_FS INTERFACE
@@ -15475,6 +15547,9 @@ target_compile_options(GENERIC_F100C8TX_usb_HID INTERFACE
 add_library(GENERIC_F100C8TX_usb_none INTERFACE)
 target_compile_options(GENERIC_F100C8TX_usb_none INTERFACE
 )
+add_library(GENERIC_F100C8TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F100C8TX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F100C8TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F100C8TX_xusb_FS INTERFACE
 )
@@ -15671,6 +15746,9 @@ target_compile_options(GENERIC_F100CBTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F100CBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F100CBTX_usb_none INTERFACE
+)
+add_library(GENERIC_F100CBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F100CBTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F100CBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F100CBTX_xusb_FS INTERFACE
@@ -15869,6 +15947,9 @@ target_compile_options(GENERIC_F100R4HX_usb_HID INTERFACE
 add_library(GENERIC_F100R4HX_usb_none INTERFACE)
 target_compile_options(GENERIC_F100R4HX_usb_none INTERFACE
 )
+add_library(GENERIC_F100R4HX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F100R4HX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F100R4HX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F100R4HX_xusb_FS INTERFACE
 )
@@ -16065,6 +16146,9 @@ target_compile_options(GENERIC_F100R6HX_usb_HID INTERFACE
 )
 add_library(GENERIC_F100R6HX_usb_none INTERFACE)
 target_compile_options(GENERIC_F100R6HX_usb_none INTERFACE
+)
+add_library(GENERIC_F100R6HX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F100R6HX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F100R6HX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F100R6HX_xusb_FS INTERFACE
@@ -16263,6 +16347,9 @@ target_compile_options(GENERIC_F100R8TX_usb_HID INTERFACE
 add_library(GENERIC_F100R8TX_usb_none INTERFACE)
 target_compile_options(GENERIC_F100R8TX_usb_none INTERFACE
 )
+add_library(GENERIC_F100R8TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F100R8TX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F100R8TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F100R8TX_xusb_FS INTERFACE
 )
@@ -16459,6 +16546,9 @@ target_compile_options(GENERIC_F100RBTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F100RBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F100RBTX_usb_none INTERFACE
+)
+add_library(GENERIC_F100RBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F100RBTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F100RBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F100RBTX_xusb_FS INTERFACE
@@ -16657,6 +16747,9 @@ target_compile_options(GENERIC_F100V8TX_usb_HID INTERFACE
 add_library(GENERIC_F100V8TX_usb_none INTERFACE)
 target_compile_options(GENERIC_F100V8TX_usb_none INTERFACE
 )
+add_library(GENERIC_F100V8TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F100V8TX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F100V8TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F100V8TX_xusb_FS INTERFACE
 )
@@ -16853,6 +16946,9 @@ target_compile_options(GENERIC_F100VBTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F100VBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F100VBTX_usb_none INTERFACE
+)
+add_library(GENERIC_F100VBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F100VBTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F100VBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F100VBTX_xusb_FS INTERFACE
@@ -17051,6 +17147,9 @@ target_compile_options(GENERIC_F100ZCTX_usb_HID INTERFACE
 add_library(GENERIC_F100ZCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F100ZCTX_usb_none INTERFACE
 )
+add_library(GENERIC_F100ZCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F100ZCTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F100ZCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F100ZCTX_xusb_FS INTERFACE
 )
@@ -17247,6 +17346,9 @@ target_compile_options(GENERIC_F100ZDTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F100ZDTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F100ZDTX_usb_none INTERFACE
+)
+add_library(GENERIC_F100ZDTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F100ZDTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F100ZDTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F100ZDTX_xusb_FS INTERFACE
@@ -17445,6 +17547,9 @@ target_compile_options(GENERIC_F100ZETX_usb_HID INTERFACE
 add_library(GENERIC_F100ZETX_usb_none INTERFACE)
 target_compile_options(GENERIC_F100ZETX_usb_none INTERFACE
 )
+add_library(GENERIC_F100ZETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F100ZETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F100ZETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F100ZETX_xusb_FS INTERFACE
 )
@@ -17641,6 +17746,9 @@ target_compile_options(GENERIC_F101C4TX_usb_HID INTERFACE
 )
 add_library(GENERIC_F101C4TX_usb_none INTERFACE)
 target_compile_options(GENERIC_F101C4TX_usb_none INTERFACE
+)
+add_library(GENERIC_F101C4TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F101C4TX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F101C4TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F101C4TX_xusb_FS INTERFACE
@@ -17839,6 +17947,9 @@ target_compile_options(GENERIC_F101C6TX_usb_HID INTERFACE
 add_library(GENERIC_F101C6TX_usb_none INTERFACE)
 target_compile_options(GENERIC_F101C6TX_usb_none INTERFACE
 )
+add_library(GENERIC_F101C6TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F101C6TX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F101C6TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F101C6TX_xusb_FS INTERFACE
 )
@@ -18035,6 +18146,9 @@ target_compile_options(GENERIC_F101R4TX_usb_HID INTERFACE
 )
 add_library(GENERIC_F101R4TX_usb_none INTERFACE)
 target_compile_options(GENERIC_F101R4TX_usb_none INTERFACE
+)
+add_library(GENERIC_F101R4TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F101R4TX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F101R4TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F101R4TX_xusb_FS INTERFACE
@@ -18233,6 +18347,9 @@ target_compile_options(GENERIC_F101R6TX_usb_HID INTERFACE
 add_library(GENERIC_F101R6TX_usb_none INTERFACE)
 target_compile_options(GENERIC_F101R6TX_usb_none INTERFACE
 )
+add_library(GENERIC_F101R6TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F101R6TX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F101R6TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F101R6TX_xusb_FS INTERFACE
 )
@@ -18429,6 +18546,9 @@ target_compile_options(GENERIC_F101T4UX_usb_HID INTERFACE
 )
 add_library(GENERIC_F101T4UX_usb_none INTERFACE)
 target_compile_options(GENERIC_F101T4UX_usb_none INTERFACE
+)
+add_library(GENERIC_F101T4UX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F101T4UX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F101T4UX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F101T4UX_xusb_FS INTERFACE
@@ -18627,6 +18747,9 @@ target_compile_options(GENERIC_F101T6UX_usb_HID INTERFACE
 add_library(GENERIC_F101T6UX_usb_none INTERFACE)
 target_compile_options(GENERIC_F101T6UX_usb_none INTERFACE
 )
+add_library(GENERIC_F101T6UX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F101T6UX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F101T6UX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F101T6UX_xusb_FS INTERFACE
 )
@@ -18823,6 +18946,9 @@ target_compile_options(GENERIC_F101V8TX_usb_HID INTERFACE
 )
 add_library(GENERIC_F101V8TX_usb_none INTERFACE)
 target_compile_options(GENERIC_F101V8TX_usb_none INTERFACE
+)
+add_library(GENERIC_F101V8TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F101V8TX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F101V8TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F101V8TX_xusb_FS INTERFACE
@@ -19021,6 +19147,9 @@ target_compile_options(GENERIC_F101VBTX_usb_HID INTERFACE
 add_library(GENERIC_F101VBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F101VBTX_usb_none INTERFACE
 )
+add_library(GENERIC_F101VBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F101VBTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F101VBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F101VBTX_xusb_FS INTERFACE
 )
@@ -19217,6 +19346,9 @@ target_compile_options(GENERIC_F101ZCTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F101ZCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F101ZCTX_usb_none INTERFACE
+)
+add_library(GENERIC_F101ZCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F101ZCTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F101ZCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F101ZCTX_xusb_FS INTERFACE
@@ -19415,6 +19547,9 @@ target_compile_options(GENERIC_F101ZDTX_usb_HID INTERFACE
 add_library(GENERIC_F101ZDTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F101ZDTX_usb_none INTERFACE
 )
+add_library(GENERIC_F101ZDTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F101ZDTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F101ZDTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F101ZDTX_xusb_FS INTERFACE
 )
@@ -19611,6 +19746,9 @@ target_compile_options(GENERIC_F101ZETX_usb_HID INTERFACE
 )
 add_library(GENERIC_F101ZETX_usb_none INTERFACE)
 target_compile_options(GENERIC_F101ZETX_usb_none INTERFACE
+)
+add_library(GENERIC_F101ZETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F101ZETX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F101ZETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F101ZETX_xusb_FS INTERFACE
@@ -19809,6 +19947,9 @@ target_compile_options(GENERIC_F103C4TX_usb_HID INTERFACE
 add_library(GENERIC_F103C4TX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103C4TX_usb_none INTERFACE
 )
+add_library(GENERIC_F103C4TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103C4TX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103C4TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103C4TX_xusb_FS INTERFACE
 )
@@ -20005,6 +20146,9 @@ target_compile_options(GENERIC_F103C6TX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103C6TX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103C6TX_usb_none INTERFACE
+)
+add_library(GENERIC_F103C6TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103C6TX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103C6TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103C6TX_xusb_FS INTERFACE
@@ -20203,6 +20347,9 @@ target_compile_options(GENERIC_F103C6UX_usb_HID INTERFACE
 add_library(GENERIC_F103C6UX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103C6UX_usb_none INTERFACE
 )
+add_library(GENERIC_F103C6UX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103C6UX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103C6UX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103C6UX_xusb_FS INTERFACE
 )
@@ -20399,6 +20546,9 @@ target_compile_options(GENERIC_F103C8TX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103C8TX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103C8TX_usb_none INTERFACE
+)
+add_library(GENERIC_F103C8TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103C8TX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103C8TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103C8TX_xusb_FS INTERFACE
@@ -20597,6 +20747,9 @@ target_compile_options(GENERIC_F103CBTX_usb_HID INTERFACE
 add_library(GENERIC_F103CBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103CBTX_usb_none INTERFACE
 )
+add_library(GENERIC_F103CBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103CBTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103CBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103CBTX_xusb_FS INTERFACE
 )
@@ -20793,6 +20946,9 @@ target_compile_options(GENERIC_F103CBUX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103CBUX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103CBUX_usb_none INTERFACE
+)
+add_library(GENERIC_F103CBUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103CBUX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103CBUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103CBUX_xusb_FS INTERFACE
@@ -20991,6 +21147,9 @@ target_compile_options(GENERIC_F103R4HX_usb_HID INTERFACE
 add_library(GENERIC_F103R4HX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103R4HX_usb_none INTERFACE
 )
+add_library(GENERIC_F103R4HX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103R4HX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103R4HX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103R4HX_xusb_FS INTERFACE
 )
@@ -21187,6 +21346,9 @@ target_compile_options(GENERIC_F103R4TX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103R4TX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103R4TX_usb_none INTERFACE
+)
+add_library(GENERIC_F103R4TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103R4TX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103R4TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103R4TX_xusb_FS INTERFACE
@@ -21385,6 +21547,9 @@ target_compile_options(GENERIC_F103R6HX_usb_HID INTERFACE
 add_library(GENERIC_F103R6HX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103R6HX_usb_none INTERFACE
 )
+add_library(GENERIC_F103R6HX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103R6HX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103R6HX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103R6HX_xusb_FS INTERFACE
 )
@@ -21581,6 +21746,9 @@ target_compile_options(GENERIC_F103R6TX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103R6TX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103R6TX_usb_none INTERFACE
+)
+add_library(GENERIC_F103R6TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103R6TX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103R6TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103R6TX_xusb_FS INTERFACE
@@ -21779,6 +21947,9 @@ target_compile_options(GENERIC_F103R8HX_usb_HID INTERFACE
 add_library(GENERIC_F103R8HX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103R8HX_usb_none INTERFACE
 )
+add_library(GENERIC_F103R8HX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103R8HX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103R8HX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103R8HX_xusb_FS INTERFACE
 )
@@ -21975,6 +22146,9 @@ target_compile_options(GENERIC_F103R8TX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103R8TX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103R8TX_usb_none INTERFACE
+)
+add_library(GENERIC_F103R8TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103R8TX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103R8TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103R8TX_xusb_FS INTERFACE
@@ -22173,6 +22347,9 @@ target_compile_options(GENERIC_F103RBHX_usb_HID INTERFACE
 add_library(GENERIC_F103RBHX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103RBHX_usb_none INTERFACE
 )
+add_library(GENERIC_F103RBHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103RBHX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103RBHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103RBHX_xusb_FS INTERFACE
 )
@@ -22369,6 +22546,9 @@ target_compile_options(GENERIC_F103RBTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103RBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103RBTX_usb_none INTERFACE
+)
+add_library(GENERIC_F103RBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103RBTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103RBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103RBTX_xusb_FS INTERFACE
@@ -22567,6 +22747,9 @@ target_compile_options(GENERIC_F103RCTX_usb_HID INTERFACE
 add_library(GENERIC_F103RCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103RCTX_usb_none INTERFACE
 )
+add_library(GENERIC_F103RCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103RCTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103RCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103RCTX_xusb_FS INTERFACE
 )
@@ -22763,6 +22946,9 @@ target_compile_options(GENERIC_F103RCYX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103RCYX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103RCYX_usb_none INTERFACE
+)
+add_library(GENERIC_F103RCYX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103RCYX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103RCYX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103RCYX_xusb_FS INTERFACE
@@ -22961,6 +23147,9 @@ target_compile_options(GENERIC_F103RDTX_usb_HID INTERFACE
 add_library(GENERIC_F103RDTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103RDTX_usb_none INTERFACE
 )
+add_library(GENERIC_F103RDTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103RDTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103RDTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103RDTX_xusb_FS INTERFACE
 )
@@ -23157,6 +23346,9 @@ target_compile_options(GENERIC_F103RDYX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103RDYX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103RDYX_usb_none INTERFACE
+)
+add_library(GENERIC_F103RDYX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103RDYX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103RDYX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103RDYX_xusb_FS INTERFACE
@@ -23355,6 +23547,9 @@ target_compile_options(GENERIC_F103RETX_usb_HID INTERFACE
 add_library(GENERIC_F103RETX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103RETX_usb_none INTERFACE
 )
+add_library(GENERIC_F103RETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103RETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103RETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103RETX_xusb_FS INTERFACE
 )
@@ -23551,6 +23746,9 @@ target_compile_options(GENERIC_F103REYX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103REYX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103REYX_usb_none INTERFACE
+)
+add_library(GENERIC_F103REYX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103REYX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103REYX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103REYX_xusb_FS INTERFACE
@@ -23749,6 +23947,9 @@ target_compile_options(GENERIC_F103RFTX_usb_HID INTERFACE
 add_library(GENERIC_F103RFTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103RFTX_usb_none INTERFACE
 )
+add_library(GENERIC_F103RFTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103RFTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103RFTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103RFTX_xusb_FS INTERFACE
 )
@@ -23945,6 +24146,9 @@ target_compile_options(GENERIC_F103RGTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103RGTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103RGTX_usb_none INTERFACE
+)
+add_library(GENERIC_F103RGTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103RGTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103RGTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103RGTX_xusb_FS INTERFACE
@@ -24143,6 +24347,9 @@ target_compile_options(GENERIC_F103T4UX_usb_HID INTERFACE
 add_library(GENERIC_F103T4UX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103T4UX_usb_none INTERFACE
 )
+add_library(GENERIC_F103T4UX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103T4UX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103T4UX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103T4UX_xusb_FS INTERFACE
 )
@@ -24339,6 +24546,9 @@ target_compile_options(GENERIC_F103T6UX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103T6UX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103T6UX_usb_none INTERFACE
+)
+add_library(GENERIC_F103T6UX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103T6UX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103T6UX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103T6UX_xusb_FS INTERFACE
@@ -24537,6 +24747,9 @@ target_compile_options(GENERIC_F103T8UX_usb_HID INTERFACE
 add_library(GENERIC_F103T8UX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103T8UX_usb_none INTERFACE
 )
+add_library(GENERIC_F103T8UX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103T8UX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103T8UX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103T8UX_xusb_FS INTERFACE
 )
@@ -24733,6 +24946,9 @@ target_compile_options(GENERIC_F103TBUX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103TBUX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103TBUX_usb_none INTERFACE
+)
+add_library(GENERIC_F103TBUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103TBUX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103TBUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103TBUX_xusb_FS INTERFACE
@@ -24931,6 +25147,9 @@ target_compile_options(GENERIC_F103V8HX_usb_HID INTERFACE
 add_library(GENERIC_F103V8HX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103V8HX_usb_none INTERFACE
 )
+add_library(GENERIC_F103V8HX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103V8HX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103V8HX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103V8HX_xusb_FS INTERFACE
 )
@@ -25127,6 +25346,9 @@ target_compile_options(GENERIC_F103V8TX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103V8TX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103V8TX_usb_none INTERFACE
+)
+add_library(GENERIC_F103V8TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103V8TX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103V8TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103V8TX_xusb_FS INTERFACE
@@ -25325,6 +25547,9 @@ target_compile_options(GENERIC_F103VBHX_usb_HID INTERFACE
 add_library(GENERIC_F103VBHX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103VBHX_usb_none INTERFACE
 )
+add_library(GENERIC_F103VBHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103VBHX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103VBHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103VBHX_xusb_FS INTERFACE
 )
@@ -25521,6 +25746,9 @@ target_compile_options(GENERIC_F103VBIX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103VBIX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103VBIX_usb_none INTERFACE
+)
+add_library(GENERIC_F103VBIX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103VBIX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103VBIX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103VBIX_xusb_FS INTERFACE
@@ -25719,6 +25947,9 @@ target_compile_options(GENERIC_F103VBTX_usb_HID INTERFACE
 add_library(GENERIC_F103VBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103VBTX_usb_none INTERFACE
 )
+add_library(GENERIC_F103VBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103VBTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103VBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103VBTX_xusb_FS INTERFACE
 )
@@ -25915,6 +26146,9 @@ target_compile_options(GENERIC_F103VCHX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103VCHX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103VCHX_usb_none INTERFACE
+)
+add_library(GENERIC_F103VCHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103VCHX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103VCHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103VCHX_xusb_FS INTERFACE
@@ -26113,6 +26347,9 @@ target_compile_options(GENERIC_F103VCTX_usb_HID INTERFACE
 add_library(GENERIC_F103VCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103VCTX_usb_none INTERFACE
 )
+add_library(GENERIC_F103VCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103VCTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103VCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103VCTX_xusb_FS INTERFACE
 )
@@ -26309,6 +26546,9 @@ target_compile_options(GENERIC_F103VDHX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103VDHX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103VDHX_usb_none INTERFACE
+)
+add_library(GENERIC_F103VDHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103VDHX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103VDHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103VDHX_xusb_FS INTERFACE
@@ -26507,6 +26747,9 @@ target_compile_options(GENERIC_F103VDTX_usb_HID INTERFACE
 add_library(GENERIC_F103VDTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103VDTX_usb_none INTERFACE
 )
+add_library(GENERIC_F103VDTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103VDTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103VDTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103VDTX_xusb_FS INTERFACE
 )
@@ -26703,6 +26946,9 @@ target_compile_options(GENERIC_F103VEHX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103VEHX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103VEHX_usb_none INTERFACE
+)
+add_library(GENERIC_F103VEHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103VEHX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103VEHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103VEHX_xusb_FS INTERFACE
@@ -26901,6 +27147,9 @@ target_compile_options(GENERIC_F103VETX_usb_HID INTERFACE
 add_library(GENERIC_F103VETX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103VETX_usb_none INTERFACE
 )
+add_library(GENERIC_F103VETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103VETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103VETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103VETX_xusb_FS INTERFACE
 )
@@ -27097,6 +27346,9 @@ target_compile_options(GENERIC_F103VFTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103VFTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103VFTX_usb_none INTERFACE
+)
+add_library(GENERIC_F103VFTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103VFTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103VFTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103VFTX_xusb_FS INTERFACE
@@ -27295,6 +27547,9 @@ target_compile_options(GENERIC_F103VGTX_usb_HID INTERFACE
 add_library(GENERIC_F103VGTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103VGTX_usb_none INTERFACE
 )
+add_library(GENERIC_F103VGTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103VGTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103VGTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103VGTX_xusb_FS INTERFACE
 )
@@ -27491,6 +27746,9 @@ target_compile_options(GENERIC_F103ZCHX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103ZCHX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103ZCHX_usb_none INTERFACE
+)
+add_library(GENERIC_F103ZCHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103ZCHX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103ZCHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103ZCHX_xusb_FS INTERFACE
@@ -27689,6 +27947,9 @@ target_compile_options(GENERIC_F103ZCTX_usb_HID INTERFACE
 add_library(GENERIC_F103ZCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103ZCTX_usb_none INTERFACE
 )
+add_library(GENERIC_F103ZCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103ZCTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103ZCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103ZCTX_xusb_FS INTERFACE
 )
@@ -27885,6 +28146,9 @@ target_compile_options(GENERIC_F103ZDHX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103ZDHX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103ZDHX_usb_none INTERFACE
+)
+add_library(GENERIC_F103ZDHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103ZDHX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103ZDHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103ZDHX_xusb_FS INTERFACE
@@ -28083,6 +28347,9 @@ target_compile_options(GENERIC_F103ZDTX_usb_HID INTERFACE
 add_library(GENERIC_F103ZDTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103ZDTX_usb_none INTERFACE
 )
+add_library(GENERIC_F103ZDTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103ZDTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103ZDTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103ZDTX_xusb_FS INTERFACE
 )
@@ -28279,6 +28546,9 @@ target_compile_options(GENERIC_F103ZEHX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103ZEHX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103ZEHX_usb_none INTERFACE
+)
+add_library(GENERIC_F103ZEHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103ZEHX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103ZEHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103ZEHX_xusb_FS INTERFACE
@@ -28477,6 +28747,9 @@ target_compile_options(GENERIC_F103ZETX_usb_HID INTERFACE
 add_library(GENERIC_F103ZETX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103ZETX_usb_none INTERFACE
 )
+add_library(GENERIC_F103ZETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103ZETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103ZETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103ZETX_xusb_FS INTERFACE
 )
@@ -28673,6 +28946,9 @@ target_compile_options(GENERIC_F103ZFHX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103ZFHX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103ZFHX_usb_none INTERFACE
+)
+add_library(GENERIC_F103ZFHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103ZFHX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103ZFHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103ZFHX_xusb_FS INTERFACE
@@ -28871,6 +29147,9 @@ target_compile_options(GENERIC_F103ZFTX_usb_HID INTERFACE
 add_library(GENERIC_F103ZFTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103ZFTX_usb_none INTERFACE
 )
+add_library(GENERIC_F103ZFTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103ZFTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103ZFTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103ZFTX_xusb_FS INTERFACE
 )
@@ -29068,6 +29347,9 @@ target_compile_options(GENERIC_F103ZGHX_usb_HID INTERFACE
 add_library(GENERIC_F103ZGHX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103ZGHX_usb_none INTERFACE
 )
+add_library(GENERIC_F103ZGHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103ZGHX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F103ZGHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103ZGHX_xusb_FS INTERFACE
 )
@@ -29264,6 +29546,9 @@ target_compile_options(GENERIC_F103ZGTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F103ZGTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F103ZGTX_usb_none INTERFACE
+)
+add_library(GENERIC_F103ZGTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F103ZGTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F103ZGTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F103ZGTX_xusb_FS INTERFACE
@@ -36875,6 +37160,9 @@ target_compile_options(GENERIC_F401CBUX_usb_HID INTERFACE
 add_library(GENERIC_F401CBUX_usb_none INTERFACE)
 target_compile_options(GENERIC_F401CBUX_usb_none INTERFACE
 )
+add_library(GENERIC_F401CBUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F401CBUX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F401CBUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F401CBUX_xusb_FS INTERFACE
 )
@@ -36995,6 +37283,9 @@ target_compile_options(GENERIC_F401CBYX_usb_HID INTERFACE
 )
 add_library(GENERIC_F401CBYX_usb_none INTERFACE)
 target_compile_options(GENERIC_F401CBYX_usb_none INTERFACE
+)
+add_library(GENERIC_F401CBYX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F401CBYX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F401CBYX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F401CBYX_xusb_FS INTERFACE
@@ -37117,6 +37408,9 @@ target_compile_options(GENERIC_F401CCFX_usb_HID INTERFACE
 add_library(GENERIC_F401CCFX_usb_none INTERFACE)
 target_compile_options(GENERIC_F401CCFX_usb_none INTERFACE
 )
+add_library(GENERIC_F401CCFX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F401CCFX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F401CCFX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F401CCFX_xusb_FS INTERFACE
 )
@@ -37237,6 +37531,9 @@ target_compile_options(GENERIC_F401CCUX_usb_HID INTERFACE
 )
 add_library(GENERIC_F401CCUX_usb_none INTERFACE)
 target_compile_options(GENERIC_F401CCUX_usb_none INTERFACE
+)
+add_library(GENERIC_F401CCUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F401CCUX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F401CCUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F401CCUX_xusb_FS INTERFACE
@@ -37359,6 +37656,9 @@ target_compile_options(GENERIC_F401CCYX_usb_HID INTERFACE
 add_library(GENERIC_F401CCYX_usb_none INTERFACE)
 target_compile_options(GENERIC_F401CCYX_usb_none INTERFACE
 )
+add_library(GENERIC_F401CCYX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F401CCYX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F401CCYX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F401CCYX_xusb_FS INTERFACE
 )
@@ -37479,6 +37779,9 @@ target_compile_options(GENERIC_F401CDUX_usb_HID INTERFACE
 )
 add_library(GENERIC_F401CDUX_usb_none INTERFACE)
 target_compile_options(GENERIC_F401CDUX_usb_none INTERFACE
+)
+add_library(GENERIC_F401CDUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F401CDUX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F401CDUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F401CDUX_xusb_FS INTERFACE
@@ -37601,6 +37904,9 @@ target_compile_options(GENERIC_F401CDYX_usb_HID INTERFACE
 add_library(GENERIC_F401CDYX_usb_none INTERFACE)
 target_compile_options(GENERIC_F401CDYX_usb_none INTERFACE
 )
+add_library(GENERIC_F401CDYX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F401CDYX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F401CDYX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F401CDYX_xusb_FS INTERFACE
 )
@@ -37721,6 +38027,9 @@ target_compile_options(GENERIC_F401CEUX_usb_HID INTERFACE
 )
 add_library(GENERIC_F401CEUX_usb_none INTERFACE)
 target_compile_options(GENERIC_F401CEUX_usb_none INTERFACE
+)
+add_library(GENERIC_F401CEUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F401CEUX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F401CEUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F401CEUX_xusb_FS INTERFACE
@@ -37843,6 +38152,9 @@ target_compile_options(GENERIC_F401CEYX_usb_HID INTERFACE
 add_library(GENERIC_F401CEYX_usb_none INTERFACE)
 target_compile_options(GENERIC_F401CEYX_usb_none INTERFACE
 )
+add_library(GENERIC_F401CEYX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F401CEYX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F401CEYX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F401CEYX_xusb_FS INTERFACE
 )
@@ -37963,6 +38275,9 @@ target_compile_options(GENERIC_F401RBTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F401RBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F401RBTX_usb_none INTERFACE
+)
+add_library(GENERIC_F401RBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F401RBTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F401RBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F401RBTX_xusb_FS INTERFACE
@@ -38085,6 +38400,9 @@ target_compile_options(GENERIC_F401RCTX_usb_HID INTERFACE
 add_library(GENERIC_F401RCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F401RCTX_usb_none INTERFACE
 )
+add_library(GENERIC_F401RCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F401RCTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F401RCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F401RCTX_xusb_FS INTERFACE
 )
@@ -38205,6 +38523,9 @@ target_compile_options(GENERIC_F401RDTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F401RDTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F401RDTX_usb_none INTERFACE
+)
+add_library(GENERIC_F401RDTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F401RDTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F401RDTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F401RDTX_xusb_FS INTERFACE
@@ -38327,6 +38648,9 @@ target_compile_options(GENERIC_F401RETX_usb_HID INTERFACE
 add_library(GENERIC_F401RETX_usb_none INTERFACE)
 target_compile_options(GENERIC_F401RETX_usb_none INTERFACE
 )
+add_library(GENERIC_F401RETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F401RETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F401RETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F401RETX_xusb_FS INTERFACE
 )
@@ -38447,6 +38771,9 @@ target_compile_options(GENERIC_F401VBTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F401VBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F401VBTX_usb_none INTERFACE
+)
+add_library(GENERIC_F401VBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F401VBTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F401VBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F401VBTX_xusb_FS INTERFACE
@@ -38569,6 +38896,9 @@ target_compile_options(GENERIC_F401VCTX_usb_HID INTERFACE
 add_library(GENERIC_F401VCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F401VCTX_usb_none INTERFACE
 )
+add_library(GENERIC_F401VCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F401VCTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F401VCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F401VCTX_xusb_FS INTERFACE
 )
@@ -38689,6 +39019,9 @@ target_compile_options(GENERIC_F401VDTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F401VDTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F401VDTX_usb_none INTERFACE
+)
+add_library(GENERIC_F401VDTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F401VDTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F401VDTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F401VDTX_xusb_FS INTERFACE
@@ -38811,6 +39144,9 @@ target_compile_options(GENERIC_F401VETX_usb_HID INTERFACE
 add_library(GENERIC_F401VETX_usb_none INTERFACE)
 target_compile_options(GENERIC_F401VETX_usb_none INTERFACE
 )
+add_library(GENERIC_F401VETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F401VETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F401VETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F401VETX_xusb_FS INTERFACE
 )
@@ -38931,6 +39267,9 @@ target_compile_options(GENERIC_F405RGTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F405RGTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F405RGTX_usb_none INTERFACE
+)
+add_library(GENERIC_F405RGTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F405RGTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F405RGTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F405RGTX_xusb_FS INTERFACE
@@ -39053,6 +39392,9 @@ target_compile_options(GENERIC_F407IEHX_usb_HID INTERFACE
 add_library(GENERIC_F407IEHX_usb_none INTERFACE)
 target_compile_options(GENERIC_F407IEHX_usb_none INTERFACE
 )
+add_library(GENERIC_F407IEHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F407IEHX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F407IEHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F407IEHX_xusb_FS INTERFACE
 )
@@ -39173,6 +39515,9 @@ target_compile_options(GENERIC_F407IETX_usb_HID INTERFACE
 )
 add_library(GENERIC_F407IETX_usb_none INTERFACE)
 target_compile_options(GENERIC_F407IETX_usb_none INTERFACE
+)
+add_library(GENERIC_F407IETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F407IETX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F407IETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F407IETX_xusb_FS INTERFACE
@@ -39295,6 +39640,9 @@ target_compile_options(GENERIC_F407IGHX_usb_HID INTERFACE
 add_library(GENERIC_F407IGHX_usb_none INTERFACE)
 target_compile_options(GENERIC_F407IGHX_usb_none INTERFACE
 )
+add_library(GENERIC_F407IGHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F407IGHX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F407IGHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F407IGHX_xusb_FS INTERFACE
 )
@@ -39415,6 +39763,9 @@ target_compile_options(GENERIC_F407IGTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F407IGTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F407IGTX_usb_none INTERFACE
+)
+add_library(GENERIC_F407IGTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F407IGTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F407IGTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F407IGTX_xusb_FS INTERFACE
@@ -39537,6 +39888,9 @@ target_compile_options(GENERIC_F407VETX_usb_HID INTERFACE
 add_library(GENERIC_F407VETX_usb_none INTERFACE)
 target_compile_options(GENERIC_F407VETX_usb_none INTERFACE
 )
+add_library(GENERIC_F407VETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F407VETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F407VETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F407VETX_xusb_FS INTERFACE
 )
@@ -39657,6 +40011,9 @@ target_compile_options(GENERIC_F407VGTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F407VGTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F407VGTX_usb_none INTERFACE
+)
+add_library(GENERIC_F407VGTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F407VGTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F407VGTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F407VGTX_xusb_FS INTERFACE
@@ -39779,6 +40136,9 @@ target_compile_options(GENERIC_F407ZETX_usb_HID INTERFACE
 add_library(GENERIC_F407ZETX_usb_none INTERFACE)
 target_compile_options(GENERIC_F407ZETX_usb_none INTERFACE
 )
+add_library(GENERIC_F407ZETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F407ZETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F407ZETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F407ZETX_xusb_FS INTERFACE
 )
@@ -39899,6 +40259,9 @@ target_compile_options(GENERIC_F407ZGTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F407ZGTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F407ZGTX_usb_none INTERFACE
+)
+add_library(GENERIC_F407ZGTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F407ZGTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F407ZGTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F407ZGTX_xusb_FS INTERFACE
@@ -40021,6 +40384,9 @@ target_compile_options(GENERIC_F410C8TX_usb_HID INTERFACE
 add_library(GENERIC_F410C8TX_usb_none INTERFACE)
 target_compile_options(GENERIC_F410C8TX_usb_none INTERFACE
 )
+add_library(GENERIC_F410C8TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F410C8TX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F410C8TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F410C8TX_xusb_FS INTERFACE
 )
@@ -40141,6 +40507,9 @@ target_compile_options(GENERIC_F410C8UX_usb_HID INTERFACE
 )
 add_library(GENERIC_F410C8UX_usb_none INTERFACE)
 target_compile_options(GENERIC_F410C8UX_usb_none INTERFACE
+)
+add_library(GENERIC_F410C8UX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F410C8UX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F410C8UX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F410C8UX_xusb_FS INTERFACE
@@ -40263,6 +40632,9 @@ target_compile_options(GENERIC_F410CBTX_usb_HID INTERFACE
 add_library(GENERIC_F410CBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F410CBTX_usb_none INTERFACE
 )
+add_library(GENERIC_F410CBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F410CBTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F410CBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F410CBTX_xusb_FS INTERFACE
 )
@@ -40383,6 +40755,9 @@ target_compile_options(GENERIC_F410CBUX_usb_HID INTERFACE
 )
 add_library(GENERIC_F410CBUX_usb_none INTERFACE)
 target_compile_options(GENERIC_F410CBUX_usb_none INTERFACE
+)
+add_library(GENERIC_F410CBUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F410CBUX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F410CBUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F410CBUX_xusb_FS INTERFACE
@@ -40505,6 +40880,9 @@ target_compile_options(GENERIC_F410R8IX_usb_HID INTERFACE
 add_library(GENERIC_F410R8IX_usb_none INTERFACE)
 target_compile_options(GENERIC_F410R8IX_usb_none INTERFACE
 )
+add_library(GENERIC_F410R8IX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F410R8IX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F410R8IX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F410R8IX_xusb_FS INTERFACE
 )
@@ -40625,6 +41003,9 @@ target_compile_options(GENERIC_F410R8TX_usb_HID INTERFACE
 )
 add_library(GENERIC_F410R8TX_usb_none INTERFACE)
 target_compile_options(GENERIC_F410R8TX_usb_none INTERFACE
+)
+add_library(GENERIC_F410R8TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F410R8TX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F410R8TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F410R8TX_xusb_FS INTERFACE
@@ -40747,6 +41128,9 @@ target_compile_options(GENERIC_F410RBIX_usb_HID INTERFACE
 add_library(GENERIC_F410RBIX_usb_none INTERFACE)
 target_compile_options(GENERIC_F410RBIX_usb_none INTERFACE
 )
+add_library(GENERIC_F410RBIX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F410RBIX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F410RBIX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F410RBIX_xusb_FS INTERFACE
 )
@@ -40867,6 +41251,9 @@ target_compile_options(GENERIC_F410RBTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F410RBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F410RBTX_usb_none INTERFACE
+)
+add_library(GENERIC_F410RBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F410RBTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F410RBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F410RBTX_xusb_FS INTERFACE
@@ -40989,6 +41376,9 @@ target_compile_options(GENERIC_F410T8YX_usb_HID INTERFACE
 add_library(GENERIC_F410T8YX_usb_none INTERFACE)
 target_compile_options(GENERIC_F410T8YX_usb_none INTERFACE
 )
+add_library(GENERIC_F410T8YX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F410T8YX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F410T8YX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F410T8YX_xusb_FS INTERFACE
 )
@@ -41109,6 +41499,9 @@ target_compile_options(GENERIC_F410TBYX_usb_HID INTERFACE
 )
 add_library(GENERIC_F410TBYX_usb_none INTERFACE)
 target_compile_options(GENERIC_F410TBYX_usb_none INTERFACE
+)
+add_library(GENERIC_F410TBYX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F410TBYX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F410TBYX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F410TBYX_xusb_FS INTERFACE
@@ -41231,6 +41624,9 @@ target_compile_options(GENERIC_F411CCUX_usb_HID INTERFACE
 add_library(GENERIC_F411CCUX_usb_none INTERFACE)
 target_compile_options(GENERIC_F411CCUX_usb_none INTERFACE
 )
+add_library(GENERIC_F411CCUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F411CCUX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F411CCUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F411CCUX_xusb_FS INTERFACE
 )
@@ -41351,6 +41747,9 @@ target_compile_options(GENERIC_F411CCYX_usb_HID INTERFACE
 )
 add_library(GENERIC_F411CCYX_usb_none INTERFACE)
 target_compile_options(GENERIC_F411CCYX_usb_none INTERFACE
+)
+add_library(GENERIC_F411CCYX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F411CCYX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F411CCYX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F411CCYX_xusb_FS INTERFACE
@@ -41473,6 +41872,9 @@ target_compile_options(GENERIC_F411CEUX_usb_HID INTERFACE
 add_library(GENERIC_F411CEUX_usb_none INTERFACE)
 target_compile_options(GENERIC_F411CEUX_usb_none INTERFACE
 )
+add_library(GENERIC_F411CEUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F411CEUX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F411CEUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F411CEUX_xusb_FS INTERFACE
 )
@@ -41593,6 +41995,9 @@ target_compile_options(GENERIC_F411CEYX_usb_HID INTERFACE
 )
 add_library(GENERIC_F411CEYX_usb_none INTERFACE)
 target_compile_options(GENERIC_F411CEYX_usb_none INTERFACE
+)
+add_library(GENERIC_F411CEYX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F411CEYX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F411CEYX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F411CEYX_xusb_FS INTERFACE
@@ -41715,6 +42120,9 @@ target_compile_options(GENERIC_F411RCTX_usb_HID INTERFACE
 add_library(GENERIC_F411RCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F411RCTX_usb_none INTERFACE
 )
+add_library(GENERIC_F411RCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F411RCTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F411RCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F411RCTX_xusb_FS INTERFACE
 )
@@ -41835,6 +42243,9 @@ target_compile_options(GENERIC_F411RETX_usb_HID INTERFACE
 )
 add_library(GENERIC_F411RETX_usb_none INTERFACE)
 target_compile_options(GENERIC_F411RETX_usb_none INTERFACE
+)
+add_library(GENERIC_F411RETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F411RETX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F411RETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F411RETX_xusb_FS INTERFACE
@@ -41957,6 +42368,9 @@ target_compile_options(GENERIC_F411VCTX_usb_HID INTERFACE
 add_library(GENERIC_F411VCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F411VCTX_usb_none INTERFACE
 )
+add_library(GENERIC_F411VCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F411VCTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F411VCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F411VCTX_xusb_FS INTERFACE
 )
@@ -42077,6 +42491,9 @@ target_compile_options(GENERIC_F411VETX_usb_HID INTERFACE
 )
 add_library(GENERIC_F411VETX_usb_none INTERFACE)
 target_compile_options(GENERIC_F411VETX_usb_none INTERFACE
+)
+add_library(GENERIC_F411VETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F411VETX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F411VETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F411VETX_xusb_FS INTERFACE
@@ -42199,6 +42616,9 @@ target_compile_options(GENERIC_F412CEUX_usb_HID INTERFACE
 add_library(GENERIC_F412CEUX_usb_none INTERFACE)
 target_compile_options(GENERIC_F412CEUX_usb_none INTERFACE
 )
+add_library(GENERIC_F412CEUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F412CEUX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F412CEUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F412CEUX_xusb_FS INTERFACE
 )
@@ -42319,6 +42739,9 @@ target_compile_options(GENERIC_F412CGUX_usb_HID INTERFACE
 )
 add_library(GENERIC_F412CGUX_usb_none INTERFACE)
 target_compile_options(GENERIC_F412CGUX_usb_none INTERFACE
+)
+add_library(GENERIC_F412CGUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F412CGUX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F412CGUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F412CGUX_xusb_FS INTERFACE
@@ -42441,6 +42864,9 @@ target_compile_options(GENERIC_F412RETX_usb_HID INTERFACE
 add_library(GENERIC_F412RETX_usb_none INTERFACE)
 target_compile_options(GENERIC_F412RETX_usb_none INTERFACE
 )
+add_library(GENERIC_F412RETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F412RETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F412RETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F412RETX_xusb_FS INTERFACE
 )
@@ -42561,6 +42987,9 @@ target_compile_options(GENERIC_F412REYX_usb_HID INTERFACE
 )
 add_library(GENERIC_F412REYX_usb_none INTERFACE)
 target_compile_options(GENERIC_F412REYX_usb_none INTERFACE
+)
+add_library(GENERIC_F412REYX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F412REYX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F412REYX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F412REYX_xusb_FS INTERFACE
@@ -42683,6 +43112,9 @@ target_compile_options(GENERIC_F412REYXP_usb_HID INTERFACE
 add_library(GENERIC_F412REYXP_usb_none INTERFACE)
 target_compile_options(GENERIC_F412REYXP_usb_none INTERFACE
 )
+add_library(GENERIC_F412REYXP_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F412REYXP_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F412REYXP_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F412REYXP_xusb_FS INTERFACE
 )
@@ -42803,6 +43235,9 @@ target_compile_options(GENERIC_F412RGTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F412RGTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F412RGTX_usb_none INTERFACE
+)
+add_library(GENERIC_F412RGTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F412RGTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F412RGTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F412RGTX_xusb_FS INTERFACE
@@ -42925,6 +43360,9 @@ target_compile_options(GENERIC_F412RGYX_usb_HID INTERFACE
 add_library(GENERIC_F412RGYX_usb_none INTERFACE)
 target_compile_options(GENERIC_F412RGYX_usb_none INTERFACE
 )
+add_library(GENERIC_F412RGYX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F412RGYX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F412RGYX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F412RGYX_xusb_FS INTERFACE
 )
@@ -43045,6 +43483,9 @@ target_compile_options(GENERIC_F412RGYXP_usb_HID INTERFACE
 )
 add_library(GENERIC_F412RGYXP_usb_none INTERFACE)
 target_compile_options(GENERIC_F412RGYXP_usb_none INTERFACE
+)
+add_library(GENERIC_F412RGYXP_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F412RGYXP_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F412RGYXP_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F412RGYXP_xusb_FS INTERFACE
@@ -43167,6 +43608,9 @@ target_compile_options(GENERIC_F412ZEJX_usb_HID INTERFACE
 add_library(GENERIC_F412ZEJX_usb_none INTERFACE)
 target_compile_options(GENERIC_F412ZEJX_usb_none INTERFACE
 )
+add_library(GENERIC_F412ZEJX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F412ZEJX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F412ZEJX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F412ZEJX_xusb_FS INTERFACE
 )
@@ -43287,6 +43731,9 @@ target_compile_options(GENERIC_F412ZETX_usb_HID INTERFACE
 )
 add_library(GENERIC_F412ZETX_usb_none INTERFACE)
 target_compile_options(GENERIC_F412ZETX_usb_none INTERFACE
+)
+add_library(GENERIC_F412ZETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F412ZETX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F412ZETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F412ZETX_xusb_FS INTERFACE
@@ -43409,6 +43856,9 @@ target_compile_options(GENERIC_F412ZGJX_usb_HID INTERFACE
 add_library(GENERIC_F412ZGJX_usb_none INTERFACE)
 target_compile_options(GENERIC_F412ZGJX_usb_none INTERFACE
 )
+add_library(GENERIC_F412ZGJX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F412ZGJX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F412ZGJX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F412ZGJX_xusb_FS INTERFACE
 )
@@ -43529,6 +43979,9 @@ target_compile_options(GENERIC_F412ZGTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F412ZGTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F412ZGTX_usb_none INTERFACE
+)
+add_library(GENERIC_F412ZGTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F412ZGTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F412ZGTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F412ZGTX_xusb_FS INTERFACE
@@ -43651,6 +44104,9 @@ target_compile_options(GENERIC_F413CGUX_usb_HID INTERFACE
 add_library(GENERIC_F413CGUX_usb_none INTERFACE)
 target_compile_options(GENERIC_F413CGUX_usb_none INTERFACE
 )
+add_library(GENERIC_F413CGUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F413CGUX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F413CGUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F413CGUX_xusb_FS INTERFACE
 )
@@ -43771,6 +44227,9 @@ target_compile_options(GENERIC_F413CHUX_usb_HID INTERFACE
 )
 add_library(GENERIC_F413CHUX_usb_none INTERFACE)
 target_compile_options(GENERIC_F413CHUX_usb_none INTERFACE
+)
+add_library(GENERIC_F413CHUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F413CHUX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F413CHUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F413CHUX_xusb_FS INTERFACE
@@ -43893,6 +44352,9 @@ target_compile_options(GENERIC_F413RGTX_usb_HID INTERFACE
 add_library(GENERIC_F413RGTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F413RGTX_usb_none INTERFACE
 )
+add_library(GENERIC_F413RGTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F413RGTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F413RGTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F413RGTX_xusb_FS INTERFACE
 )
@@ -44013,6 +44475,9 @@ target_compile_options(GENERIC_F413RHTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F413RHTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F413RHTX_usb_none INTERFACE
+)
+add_library(GENERIC_F413RHTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F413RHTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F413RHTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F413RHTX_xusb_FS INTERFACE
@@ -44135,6 +44600,9 @@ target_compile_options(GENERIC_F413ZGJX_usb_HID INTERFACE
 add_library(GENERIC_F413ZGJX_usb_none INTERFACE)
 target_compile_options(GENERIC_F413ZGJX_usb_none INTERFACE
 )
+add_library(GENERIC_F413ZGJX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F413ZGJX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F413ZGJX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F413ZGJX_xusb_FS INTERFACE
 )
@@ -44255,6 +44723,9 @@ target_compile_options(GENERIC_F413ZGTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F413ZGTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F413ZGTX_usb_none INTERFACE
+)
+add_library(GENERIC_F413ZGTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F413ZGTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F413ZGTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F413ZGTX_xusb_FS INTERFACE
@@ -44377,6 +44848,9 @@ target_compile_options(GENERIC_F413ZHJX_usb_HID INTERFACE
 add_library(GENERIC_F413ZHJX_usb_none INTERFACE)
 target_compile_options(GENERIC_F413ZHJX_usb_none INTERFACE
 )
+add_library(GENERIC_F413ZHJX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F413ZHJX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F413ZHJX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F413ZHJX_xusb_FS INTERFACE
 )
@@ -44497,6 +44971,9 @@ target_compile_options(GENERIC_F413ZHTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F413ZHTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F413ZHTX_usb_none INTERFACE
+)
+add_library(GENERIC_F413ZHTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F413ZHTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F413ZHTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F413ZHTX_xusb_FS INTERFACE
@@ -44619,6 +45096,9 @@ target_compile_options(GENERIC_F415RGTX_usb_HID INTERFACE
 add_library(GENERIC_F415RGTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F415RGTX_usb_none INTERFACE
 )
+add_library(GENERIC_F415RGTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F415RGTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F415RGTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F415RGTX_xusb_FS INTERFACE
 )
@@ -44739,6 +45219,9 @@ target_compile_options(GENERIC_F417IEHX_usb_HID INTERFACE
 )
 add_library(GENERIC_F417IEHX_usb_none INTERFACE)
 target_compile_options(GENERIC_F417IEHX_usb_none INTERFACE
+)
+add_library(GENERIC_F417IEHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F417IEHX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F417IEHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F417IEHX_xusb_FS INTERFACE
@@ -44861,6 +45344,9 @@ target_compile_options(GENERIC_F417IETX_usb_HID INTERFACE
 add_library(GENERIC_F417IETX_usb_none INTERFACE)
 target_compile_options(GENERIC_F417IETX_usb_none INTERFACE
 )
+add_library(GENERIC_F417IETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F417IETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F417IETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F417IETX_xusb_FS INTERFACE
 )
@@ -44981,6 +45467,9 @@ target_compile_options(GENERIC_F417IGHX_usb_HID INTERFACE
 )
 add_library(GENERIC_F417IGHX_usb_none INTERFACE)
 target_compile_options(GENERIC_F417IGHX_usb_none INTERFACE
+)
+add_library(GENERIC_F417IGHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F417IGHX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F417IGHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F417IGHX_xusb_FS INTERFACE
@@ -45103,6 +45592,9 @@ target_compile_options(GENERIC_F417IGTX_usb_HID INTERFACE
 add_library(GENERIC_F417IGTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F417IGTX_usb_none INTERFACE
 )
+add_library(GENERIC_F417IGTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F417IGTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F417IGTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F417IGTX_xusb_FS INTERFACE
 )
@@ -45223,6 +45715,9 @@ target_compile_options(GENERIC_F417VETX_usb_HID INTERFACE
 )
 add_library(GENERIC_F417VETX_usb_none INTERFACE)
 target_compile_options(GENERIC_F417VETX_usb_none INTERFACE
+)
+add_library(GENERIC_F417VETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F417VETX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F417VETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F417VETX_xusb_FS INTERFACE
@@ -45345,6 +45840,9 @@ target_compile_options(GENERIC_F417VGTX_usb_HID INTERFACE
 add_library(GENERIC_F417VGTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F417VGTX_usb_none INTERFACE
 )
+add_library(GENERIC_F417VGTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F417VGTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F417VGTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F417VGTX_xusb_FS INTERFACE
 )
@@ -45465,6 +45963,9 @@ target_compile_options(GENERIC_F417ZETX_usb_HID INTERFACE
 )
 add_library(GENERIC_F417ZETX_usb_none INTERFACE)
 target_compile_options(GENERIC_F417ZETX_usb_none INTERFACE
+)
+add_library(GENERIC_F417ZETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F417ZETX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F417ZETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F417ZETX_xusb_FS INTERFACE
@@ -45587,6 +46088,9 @@ target_compile_options(GENERIC_F417ZGTX_usb_HID INTERFACE
 add_library(GENERIC_F417ZGTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F417ZGTX_usb_none INTERFACE
 )
+add_library(GENERIC_F417ZGTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F417ZGTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F417ZGTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F417ZGTX_xusb_FS INTERFACE
 )
@@ -45707,6 +46211,9 @@ target_compile_options(GENERIC_F423CHUX_usb_HID INTERFACE
 )
 add_library(GENERIC_F423CHUX_usb_none INTERFACE)
 target_compile_options(GENERIC_F423CHUX_usb_none INTERFACE
+)
+add_library(GENERIC_F423CHUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F423CHUX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F423CHUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F423CHUX_xusb_FS INTERFACE
@@ -45829,6 +46336,9 @@ target_compile_options(GENERIC_F423RHTX_usb_HID INTERFACE
 add_library(GENERIC_F423RHTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F423RHTX_usb_none INTERFACE
 )
+add_library(GENERIC_F423RHTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F423RHTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F423RHTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F423RHTX_xusb_FS INTERFACE
 )
@@ -45949,6 +46459,9 @@ target_compile_options(GENERIC_F423ZHJX_usb_HID INTERFACE
 )
 add_library(GENERIC_F423ZHJX_usb_none INTERFACE)
 target_compile_options(GENERIC_F423ZHJX_usb_none INTERFACE
+)
+add_library(GENERIC_F423ZHJX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F423ZHJX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F423ZHJX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F423ZHJX_xusb_FS INTERFACE
@@ -46071,6 +46584,9 @@ target_compile_options(GENERIC_F423ZHTX_usb_HID INTERFACE
 add_library(GENERIC_F423ZHTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F423ZHTX_usb_none INTERFACE
 )
+add_library(GENERIC_F423ZHTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F423ZHTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F423ZHTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F423ZHTX_xusb_FS INTERFACE
 )
@@ -46191,6 +46707,9 @@ target_compile_options(GENERIC_F427ZGTX_usb_HID INTERFACE
 )
 add_library(GENERIC_F427ZGTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F427ZGTX_usb_none INTERFACE
+)
+add_library(GENERIC_F427ZGTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F427ZGTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F427ZGTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F427ZGTX_xusb_FS INTERFACE
@@ -46313,6 +46832,9 @@ target_compile_options(GENERIC_F427ZITX_usb_HID INTERFACE
 add_library(GENERIC_F427ZITX_usb_none INTERFACE)
 target_compile_options(GENERIC_F427ZITX_usb_none INTERFACE
 )
+add_library(GENERIC_F427ZITX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F427ZITX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F427ZITX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F427ZITX_xusb_FS INTERFACE
 )
@@ -46433,6 +46955,9 @@ target_compile_options(GENERIC_F429ZETX_usb_HID INTERFACE
 )
 add_library(GENERIC_F429ZETX_usb_none INTERFACE)
 target_compile_options(GENERIC_F429ZETX_usb_none INTERFACE
+)
+add_library(GENERIC_F429ZETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F429ZETX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F429ZETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F429ZETX_xusb_FS INTERFACE
@@ -46555,6 +47080,9 @@ target_compile_options(GENERIC_F429ZGTX_usb_HID INTERFACE
 add_library(GENERIC_F429ZGTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F429ZGTX_usb_none INTERFACE
 )
+add_library(GENERIC_F429ZGTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F429ZGTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F429ZGTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F429ZGTX_xusb_FS INTERFACE
 )
@@ -46675,6 +47203,9 @@ target_compile_options(GENERIC_F429ZGYX_usb_HID INTERFACE
 )
 add_library(GENERIC_F429ZGYX_usb_none INTERFACE)
 target_compile_options(GENERIC_F429ZGYX_usb_none INTERFACE
+)
+add_library(GENERIC_F429ZGYX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F429ZGYX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F429ZGYX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F429ZGYX_xusb_FS INTERFACE
@@ -46797,6 +47328,9 @@ target_compile_options(GENERIC_F429ZITX_usb_HID INTERFACE
 add_library(GENERIC_F429ZITX_usb_none INTERFACE)
 target_compile_options(GENERIC_F429ZITX_usb_none INTERFACE
 )
+add_library(GENERIC_F429ZITX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F429ZITX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F429ZITX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F429ZITX_xusb_FS INTERFACE
 )
@@ -46917,6 +47451,9 @@ target_compile_options(GENERIC_F429ZIYX_usb_HID INTERFACE
 )
 add_library(GENERIC_F429ZIYX_usb_none INTERFACE)
 target_compile_options(GENERIC_F429ZIYX_usb_none INTERFACE
+)
+add_library(GENERIC_F429ZIYX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F429ZIYX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F429ZIYX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F429ZIYX_xusb_FS INTERFACE
@@ -47039,6 +47576,9 @@ target_compile_options(GENERIC_F437ZGTX_usb_HID INTERFACE
 add_library(GENERIC_F437ZGTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F437ZGTX_usb_none INTERFACE
 )
+add_library(GENERIC_F437ZGTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F437ZGTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F437ZGTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F437ZGTX_xusb_FS INTERFACE
 )
@@ -47159,6 +47699,9 @@ target_compile_options(GENERIC_F437ZITX_usb_HID INTERFACE
 )
 add_library(GENERIC_F437ZITX_usb_none INTERFACE)
 target_compile_options(GENERIC_F437ZITX_usb_none INTERFACE
+)
+add_library(GENERIC_F437ZITX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F437ZITX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F437ZITX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F437ZITX_xusb_FS INTERFACE
@@ -47281,6 +47824,9 @@ target_compile_options(GENERIC_F439ZGTX_usb_HID INTERFACE
 add_library(GENERIC_F439ZGTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F439ZGTX_usb_none INTERFACE
 )
+add_library(GENERIC_F439ZGTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F439ZGTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F439ZGTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F439ZGTX_xusb_FS INTERFACE
 )
@@ -47401,6 +47947,9 @@ target_compile_options(GENERIC_F439ZGYX_usb_HID INTERFACE
 )
 add_library(GENERIC_F439ZGYX_usb_none INTERFACE)
 target_compile_options(GENERIC_F439ZGYX_usb_none INTERFACE
+)
+add_library(GENERIC_F439ZGYX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F439ZGYX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F439ZGYX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F439ZGYX_xusb_FS INTERFACE
@@ -47523,6 +48072,9 @@ target_compile_options(GENERIC_F439ZITX_usb_HID INTERFACE
 add_library(GENERIC_F439ZITX_usb_none INTERFACE)
 target_compile_options(GENERIC_F439ZITX_usb_none INTERFACE
 )
+add_library(GENERIC_F439ZITX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F439ZITX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F439ZITX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F439ZITX_xusb_FS INTERFACE
 )
@@ -47643,6 +48195,9 @@ target_compile_options(GENERIC_F439ZIYX_usb_HID INTERFACE
 )
 add_library(GENERIC_F439ZIYX_usb_none INTERFACE)
 target_compile_options(GENERIC_F439ZIYX_usb_none INTERFACE
+)
+add_library(GENERIC_F439ZIYX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F439ZIYX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F439ZIYX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F439ZIYX_xusb_FS INTERFACE
@@ -47765,6 +48320,9 @@ target_compile_options(GENERIC_F446RCTX_usb_HID INTERFACE
 add_library(GENERIC_F446RCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F446RCTX_usb_none INTERFACE
 )
+add_library(GENERIC_F446RCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F446RCTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F446RCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F446RCTX_xusb_FS INTERFACE
 )
@@ -47885,6 +48443,9 @@ target_compile_options(GENERIC_F446RETX_usb_HID INTERFACE
 )
 add_library(GENERIC_F446RETX_usb_none INTERFACE)
 target_compile_options(GENERIC_F446RETX_usb_none INTERFACE
+)
+add_library(GENERIC_F446RETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F446RETX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F446RETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F446RETX_xusb_FS INTERFACE
@@ -48007,6 +48568,9 @@ target_compile_options(GENERIC_F446VCTX_usb_HID INTERFACE
 add_library(GENERIC_F446VCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F446VCTX_usb_none INTERFACE
 )
+add_library(GENERIC_F446VCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F446VCTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F446VCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F446VCTX_xusb_FS INTERFACE
 )
@@ -48127,6 +48691,9 @@ target_compile_options(GENERIC_F446VETX_usb_HID INTERFACE
 )
 add_library(GENERIC_F446VETX_usb_none INTERFACE)
 target_compile_options(GENERIC_F446VETX_usb_none INTERFACE
+)
+add_library(GENERIC_F446VETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F446VETX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F446VETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F446VETX_xusb_FS INTERFACE
@@ -48249,6 +48816,9 @@ target_compile_options(GENERIC_F446ZCHX_usb_HID INTERFACE
 add_library(GENERIC_F446ZCHX_usb_none INTERFACE)
 target_compile_options(GENERIC_F446ZCHX_usb_none INTERFACE
 )
+add_library(GENERIC_F446ZCHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F446ZCHX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F446ZCHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F446ZCHX_xusb_FS INTERFACE
 )
@@ -48369,6 +48939,9 @@ target_compile_options(GENERIC_F446ZCJX_usb_HID INTERFACE
 )
 add_library(GENERIC_F446ZCJX_usb_none INTERFACE)
 target_compile_options(GENERIC_F446ZCJX_usb_none INTERFACE
+)
+add_library(GENERIC_F446ZCJX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F446ZCJX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F446ZCJX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F446ZCJX_xusb_FS INTERFACE
@@ -48491,6 +49064,9 @@ target_compile_options(GENERIC_F446ZCTX_usb_HID INTERFACE
 add_library(GENERIC_F446ZCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_F446ZCTX_usb_none INTERFACE
 )
+add_library(GENERIC_F446ZCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F446ZCTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F446ZCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F446ZCTX_xusb_FS INTERFACE
 )
@@ -48611,6 +49187,9 @@ target_compile_options(GENERIC_F446ZEHX_usb_HID INTERFACE
 )
 add_library(GENERIC_F446ZEHX_usb_none INTERFACE)
 target_compile_options(GENERIC_F446ZEHX_usb_none INTERFACE
+)
+add_library(GENERIC_F446ZEHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F446ZEHX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F446ZEHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F446ZEHX_xusb_FS INTERFACE
@@ -48733,6 +49312,9 @@ target_compile_options(GENERIC_F446ZEJX_usb_HID INTERFACE
 add_library(GENERIC_F446ZEJX_usb_none INTERFACE)
 target_compile_options(GENERIC_F446ZEJX_usb_none INTERFACE
 )
+add_library(GENERIC_F446ZEJX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F446ZEJX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_F446ZEJX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F446ZEJX_xusb_FS INTERFACE
 )
@@ -48853,6 +49435,9 @@ target_compile_options(GENERIC_F446ZETX_usb_HID INTERFACE
 )
 add_library(GENERIC_F446ZETX_usb_none INTERFACE)
 target_compile_options(GENERIC_F446ZETX_usb_none INTERFACE
+)
+add_library(GENERIC_F446ZETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_F446ZETX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_F446ZETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_F446ZETX_xusb_FS INTERFACE
@@ -63286,6 +63871,9 @@ target_compile_options(GENERIC_G431C6TX_usb_HID INTERFACE
 add_library(GENERIC_G431C6TX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431C6TX_usb_none INTERFACE
 )
+add_library(GENERIC_G431C6TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431C6TX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G431C6TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431C6TX_xusb_FS INTERFACE
 )
@@ -63364,6 +63952,9 @@ target_compile_options(GENERIC_G431C6UX_usb_HID INTERFACE
 )
 add_library(GENERIC_G431C6UX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431C6UX_usb_none INTERFACE
+)
+add_library(GENERIC_G431C6UX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431C6UX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G431C6UX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431C6UX_xusb_FS INTERFACE
@@ -63444,6 +64035,9 @@ target_compile_options(GENERIC_G431C8TX_usb_HID INTERFACE
 add_library(GENERIC_G431C8TX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431C8TX_usb_none INTERFACE
 )
+add_library(GENERIC_G431C8TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431C8TX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G431C8TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431C8TX_xusb_FS INTERFACE
 )
@@ -63522,6 +64116,9 @@ target_compile_options(GENERIC_G431C8UX_usb_HID INTERFACE
 )
 add_library(GENERIC_G431C8UX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431C8UX_usb_none INTERFACE
+)
+add_library(GENERIC_G431C8UX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431C8UX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G431C8UX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431C8UX_xusb_FS INTERFACE
@@ -63602,6 +64199,9 @@ target_compile_options(GENERIC_G431CBTX_usb_HID INTERFACE
 add_library(GENERIC_G431CBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431CBTX_usb_none INTERFACE
 )
+add_library(GENERIC_G431CBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431CBTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G431CBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431CBTX_xusb_FS INTERFACE
 )
@@ -63680,6 +64280,9 @@ target_compile_options(GENERIC_G431CBUX_usb_HID INTERFACE
 )
 add_library(GENERIC_G431CBUX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431CBUX_usb_none INTERFACE
+)
+add_library(GENERIC_G431CBUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431CBUX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G431CBUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431CBUX_xusb_FS INTERFACE
@@ -63760,6 +64363,9 @@ target_compile_options(GENERIC_G431K6TX_usb_HID INTERFACE
 add_library(GENERIC_G431K6TX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431K6TX_usb_none INTERFACE
 )
+add_library(GENERIC_G431K6TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431K6TX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G431K6TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431K6TX_xusb_FS INTERFACE
 )
@@ -63838,6 +64444,9 @@ target_compile_options(GENERIC_G431K6UX_usb_HID INTERFACE
 )
 add_library(GENERIC_G431K6UX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431K6UX_usb_none INTERFACE
+)
+add_library(GENERIC_G431K6UX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431K6UX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G431K6UX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431K6UX_xusb_FS INTERFACE
@@ -63918,6 +64527,9 @@ target_compile_options(GENERIC_G431K8TX_usb_HID INTERFACE
 add_library(GENERIC_G431K8TX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431K8TX_usb_none INTERFACE
 )
+add_library(GENERIC_G431K8TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431K8TX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G431K8TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431K8TX_xusb_FS INTERFACE
 )
@@ -63996,6 +64608,9 @@ target_compile_options(GENERIC_G431K8UX_usb_HID INTERFACE
 )
 add_library(GENERIC_G431K8UX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431K8UX_usb_none INTERFACE
+)
+add_library(GENERIC_G431K8UX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431K8UX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G431K8UX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431K8UX_xusb_FS INTERFACE
@@ -64076,6 +64691,9 @@ target_compile_options(GENERIC_G431KBTX_usb_HID INTERFACE
 add_library(GENERIC_G431KBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431KBTX_usb_none INTERFACE
 )
+add_library(GENERIC_G431KBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431KBTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G431KBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431KBTX_xusb_FS INTERFACE
 )
@@ -64154,6 +64772,9 @@ target_compile_options(GENERIC_G431KBUX_usb_HID INTERFACE
 )
 add_library(GENERIC_G431KBUX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431KBUX_usb_none INTERFACE
+)
+add_library(GENERIC_G431KBUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431KBUX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G431KBUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431KBUX_xusb_FS INTERFACE
@@ -64234,6 +64855,9 @@ target_compile_options(GENERIC_G431M6TX_usb_HID INTERFACE
 add_library(GENERIC_G431M6TX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431M6TX_usb_none INTERFACE
 )
+add_library(GENERIC_G431M6TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431M6TX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G431M6TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431M6TX_xusb_FS INTERFACE
 )
@@ -64312,6 +64936,9 @@ target_compile_options(GENERIC_G431M8TX_usb_HID INTERFACE
 )
 add_library(GENERIC_G431M8TX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431M8TX_usb_none INTERFACE
+)
+add_library(GENERIC_G431M8TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431M8TX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G431M8TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431M8TX_xusb_FS INTERFACE
@@ -64392,6 +65019,9 @@ target_compile_options(GENERIC_G431MBTX_usb_HID INTERFACE
 add_library(GENERIC_G431MBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431MBTX_usb_none INTERFACE
 )
+add_library(GENERIC_G431MBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431MBTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G431MBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431MBTX_xusb_FS INTERFACE
 )
@@ -64470,6 +65100,9 @@ target_compile_options(GENERIC_G431R6IX_usb_HID INTERFACE
 )
 add_library(GENERIC_G431R6IX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431R6IX_usb_none INTERFACE
+)
+add_library(GENERIC_G431R6IX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431R6IX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G431R6IX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431R6IX_xusb_FS INTERFACE
@@ -64550,6 +65183,9 @@ target_compile_options(GENERIC_G431R6TX_usb_HID INTERFACE
 add_library(GENERIC_G431R6TX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431R6TX_usb_none INTERFACE
 )
+add_library(GENERIC_G431R6TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431R6TX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G431R6TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431R6TX_xusb_FS INTERFACE
 )
@@ -64628,6 +65264,9 @@ target_compile_options(GENERIC_G431R8IX_usb_HID INTERFACE
 )
 add_library(GENERIC_G431R8IX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431R8IX_usb_none INTERFACE
+)
+add_library(GENERIC_G431R8IX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431R8IX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G431R8IX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431R8IX_xusb_FS INTERFACE
@@ -64708,6 +65347,9 @@ target_compile_options(GENERIC_G431R8TX_usb_HID INTERFACE
 add_library(GENERIC_G431R8TX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431R8TX_usb_none INTERFACE
 )
+add_library(GENERIC_G431R8TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431R8TX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G431R8TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431R8TX_xusb_FS INTERFACE
 )
@@ -64786,6 +65428,9 @@ target_compile_options(GENERIC_G431RBIX_usb_HID INTERFACE
 )
 add_library(GENERIC_G431RBIX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431RBIX_usb_none INTERFACE
+)
+add_library(GENERIC_G431RBIX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431RBIX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G431RBIX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431RBIX_xusb_FS INTERFACE
@@ -64866,6 +65511,9 @@ target_compile_options(GENERIC_G431RBTX_usb_HID INTERFACE
 add_library(GENERIC_G431RBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431RBTX_usb_none INTERFACE
 )
+add_library(GENERIC_G431RBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431RBTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G431RBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431RBTX_xusb_FS INTERFACE
 )
@@ -64944,6 +65592,9 @@ target_compile_options(GENERIC_G431RBTXZ_usb_HID INTERFACE
 )
 add_library(GENERIC_G431RBTXZ_usb_none INTERFACE)
 target_compile_options(GENERIC_G431RBTXZ_usb_none INTERFACE
+)
+add_library(GENERIC_G431RBTXZ_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431RBTXZ_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G431RBTXZ_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431RBTXZ_xusb_FS INTERFACE
@@ -65024,6 +65675,9 @@ target_compile_options(GENERIC_G431V6TX_usb_HID INTERFACE
 add_library(GENERIC_G431V6TX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431V6TX_usb_none INTERFACE
 )
+add_library(GENERIC_G431V6TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431V6TX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G431V6TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431V6TX_xusb_FS INTERFACE
 )
@@ -65102,6 +65756,9 @@ target_compile_options(GENERIC_G431V8TX_usb_HID INTERFACE
 )
 add_library(GENERIC_G431V8TX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431V8TX_usb_none INTERFACE
+)
+add_library(GENERIC_G431V8TX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431V8TX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G431V8TX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431V8TX_xusb_FS INTERFACE
@@ -65182,6 +65839,9 @@ target_compile_options(GENERIC_G431VBTX_usb_HID INTERFACE
 add_library(GENERIC_G431VBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G431VBTX_usb_none INTERFACE
 )
+add_library(GENERIC_G431VBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G431VBTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G431VBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G431VBTX_xusb_FS INTERFACE
 )
@@ -65260,6 +65920,9 @@ target_compile_options(GENERIC_G441CBTX_usb_HID INTERFACE
 )
 add_library(GENERIC_G441CBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G441CBTX_usb_none INTERFACE
+)
+add_library(GENERIC_G441CBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G441CBTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G441CBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G441CBTX_xusb_FS INTERFACE
@@ -65340,6 +66003,9 @@ target_compile_options(GENERIC_G441CBUX_usb_HID INTERFACE
 add_library(GENERIC_G441CBUX_usb_none INTERFACE)
 target_compile_options(GENERIC_G441CBUX_usb_none INTERFACE
 )
+add_library(GENERIC_G441CBUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G441CBUX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G441CBUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G441CBUX_xusb_FS INTERFACE
 )
@@ -65418,6 +66084,9 @@ target_compile_options(GENERIC_G441KBTX_usb_HID INTERFACE
 )
 add_library(GENERIC_G441KBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G441KBTX_usb_none INTERFACE
+)
+add_library(GENERIC_G441KBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G441KBTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G441KBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G441KBTX_xusb_FS INTERFACE
@@ -65498,6 +66167,9 @@ target_compile_options(GENERIC_G441KBUX_usb_HID INTERFACE
 add_library(GENERIC_G441KBUX_usb_none INTERFACE)
 target_compile_options(GENERIC_G441KBUX_usb_none INTERFACE
 )
+add_library(GENERIC_G441KBUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G441KBUX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G441KBUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G441KBUX_xusb_FS INTERFACE
 )
@@ -65576,6 +66248,9 @@ target_compile_options(GENERIC_G441MBTX_usb_HID INTERFACE
 )
 add_library(GENERIC_G441MBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G441MBTX_usb_none INTERFACE
+)
+add_library(GENERIC_G441MBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G441MBTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G441MBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G441MBTX_xusb_FS INTERFACE
@@ -65656,6 +66331,9 @@ target_compile_options(GENERIC_G441RBIX_usb_HID INTERFACE
 add_library(GENERIC_G441RBIX_usb_none INTERFACE)
 target_compile_options(GENERIC_G441RBIX_usb_none INTERFACE
 )
+add_library(GENERIC_G441RBIX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G441RBIX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G441RBIX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G441RBIX_xusb_FS INTERFACE
 )
@@ -65734,6 +66412,9 @@ target_compile_options(GENERIC_G441RBTX_usb_HID INTERFACE
 )
 add_library(GENERIC_G441RBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G441RBTX_usb_none INTERFACE
+)
+add_library(GENERIC_G441RBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G441RBTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G441RBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G441RBTX_xusb_FS INTERFACE
@@ -65814,6 +66495,9 @@ target_compile_options(GENERIC_G441VBTX_usb_HID INTERFACE
 add_library(GENERIC_G441VBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G441VBTX_usb_none INTERFACE
 )
+add_library(GENERIC_G441VBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G441VBTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G441VBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G441VBTX_xusb_FS INTERFACE
 )
@@ -65892,6 +66576,9 @@ target_compile_options(GENERIC_G471CCTX_usb_HID INTERFACE
 )
 add_library(GENERIC_G471CCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G471CCTX_usb_none INTERFACE
+)
+add_library(GENERIC_G471CCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G471CCTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G471CCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G471CCTX_xusb_FS INTERFACE
@@ -65972,6 +66659,9 @@ target_compile_options(GENERIC_G471CETX_usb_HID INTERFACE
 add_library(GENERIC_G471CETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G471CETX_usb_none INTERFACE
 )
+add_library(GENERIC_G471CETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G471CETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G471CETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G471CETX_xusb_FS INTERFACE
 )
@@ -66050,6 +66740,9 @@ target_compile_options(GENERIC_G471MCTX_usb_HID INTERFACE
 )
 add_library(GENERIC_G471MCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G471MCTX_usb_none INTERFACE
+)
+add_library(GENERIC_G471MCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G471MCTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G471MCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G471MCTX_xusb_FS INTERFACE
@@ -66130,6 +66823,9 @@ target_compile_options(GENERIC_G471METX_usb_HID INTERFACE
 add_library(GENERIC_G471METX_usb_none INTERFACE)
 target_compile_options(GENERIC_G471METX_usb_none INTERFACE
 )
+add_library(GENERIC_G471METX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G471METX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G471METX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G471METX_xusb_FS INTERFACE
 )
@@ -66208,6 +66904,9 @@ target_compile_options(GENERIC_G471QCTX_usb_HID INTERFACE
 )
 add_library(GENERIC_G471QCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G471QCTX_usb_none INTERFACE
+)
+add_library(GENERIC_G471QCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G471QCTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G471QCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G471QCTX_xusb_FS INTERFACE
@@ -66288,6 +66987,9 @@ target_compile_options(GENERIC_G471QETX_usb_HID INTERFACE
 add_library(GENERIC_G471QETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G471QETX_usb_none INTERFACE
 )
+add_library(GENERIC_G471QETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G471QETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G471QETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G471QETX_xusb_FS INTERFACE
 )
@@ -66366,6 +67068,9 @@ target_compile_options(GENERIC_G471RCTX_usb_HID INTERFACE
 )
 add_library(GENERIC_G471RCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G471RCTX_usb_none INTERFACE
+)
+add_library(GENERIC_G471RCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G471RCTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G471RCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G471RCTX_xusb_FS INTERFACE
@@ -66446,6 +67151,9 @@ target_compile_options(GENERIC_G471RETX_usb_HID INTERFACE
 add_library(GENERIC_G471RETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G471RETX_usb_none INTERFACE
 )
+add_library(GENERIC_G471RETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G471RETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G471RETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G471RETX_xusb_FS INTERFACE
 )
@@ -66524,6 +67232,9 @@ target_compile_options(GENERIC_G471VCHX_usb_HID INTERFACE
 )
 add_library(GENERIC_G471VCHX_usb_none INTERFACE)
 target_compile_options(GENERIC_G471VCHX_usb_none INTERFACE
+)
+add_library(GENERIC_G471VCHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G471VCHX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G471VCHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G471VCHX_xusb_FS INTERFACE
@@ -66604,6 +67315,9 @@ target_compile_options(GENERIC_G471VCIX_usb_HID INTERFACE
 add_library(GENERIC_G471VCIX_usb_none INTERFACE)
 target_compile_options(GENERIC_G471VCIX_usb_none INTERFACE
 )
+add_library(GENERIC_G471VCIX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G471VCIX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G471VCIX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G471VCIX_xusb_FS INTERFACE
 )
@@ -66682,6 +67396,9 @@ target_compile_options(GENERIC_G471VCTX_usb_HID INTERFACE
 )
 add_library(GENERIC_G471VCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G471VCTX_usb_none INTERFACE
+)
+add_library(GENERIC_G471VCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G471VCTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G471VCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G471VCTX_xusb_FS INTERFACE
@@ -66762,6 +67479,9 @@ target_compile_options(GENERIC_G471VEHX_usb_HID INTERFACE
 add_library(GENERIC_G471VEHX_usb_none INTERFACE)
 target_compile_options(GENERIC_G471VEHX_usb_none INTERFACE
 )
+add_library(GENERIC_G471VEHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G471VEHX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G471VEHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G471VEHX_xusb_FS INTERFACE
 )
@@ -66840,6 +67560,9 @@ target_compile_options(GENERIC_G471VEIX_usb_HID INTERFACE
 )
 add_library(GENERIC_G471VEIX_usb_none INTERFACE)
 target_compile_options(GENERIC_G471VEIX_usb_none INTERFACE
+)
+add_library(GENERIC_G471VEIX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G471VEIX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G471VEIX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G471VEIX_xusb_FS INTERFACE
@@ -66920,6 +67643,9 @@ target_compile_options(GENERIC_G471VETX_usb_HID INTERFACE
 add_library(GENERIC_G471VETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G471VETX_usb_none INTERFACE
 )
+add_library(GENERIC_G471VETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G471VETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G471VETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G471VETX_xusb_FS INTERFACE
 )
@@ -66998,6 +67724,9 @@ target_compile_options(GENERIC_G473CBTX_usb_HID INTERFACE
 )
 add_library(GENERIC_G473CBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473CBTX_usb_none INTERFACE
+)
+add_library(GENERIC_G473CBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473CBTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G473CBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473CBTX_xusb_FS INTERFACE
@@ -67078,6 +67807,9 @@ target_compile_options(GENERIC_G473CBUX_usb_HID INTERFACE
 add_library(GENERIC_G473CBUX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473CBUX_usb_none INTERFACE
 )
+add_library(GENERIC_G473CBUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473CBUX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G473CBUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473CBUX_xusb_FS INTERFACE
 )
@@ -67156,6 +67888,9 @@ target_compile_options(GENERIC_G473CCTX_usb_HID INTERFACE
 )
 add_library(GENERIC_G473CCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473CCTX_usb_none INTERFACE
+)
+add_library(GENERIC_G473CCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473CCTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G473CCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473CCTX_xusb_FS INTERFACE
@@ -67236,6 +67971,9 @@ target_compile_options(GENERIC_G473CCUX_usb_HID INTERFACE
 add_library(GENERIC_G473CCUX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473CCUX_usb_none INTERFACE
 )
+add_library(GENERIC_G473CCUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473CCUX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G473CCUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473CCUX_xusb_FS INTERFACE
 )
@@ -67314,6 +68052,9 @@ target_compile_options(GENERIC_G473CETX_usb_HID INTERFACE
 )
 add_library(GENERIC_G473CETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473CETX_usb_none INTERFACE
+)
+add_library(GENERIC_G473CETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473CETX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G473CETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473CETX_xusb_FS INTERFACE
@@ -67394,6 +68135,9 @@ target_compile_options(GENERIC_G473CEUX_usb_HID INTERFACE
 add_library(GENERIC_G473CEUX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473CEUX_usb_none INTERFACE
 )
+add_library(GENERIC_G473CEUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473CEUX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G473CEUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473CEUX_xusb_FS INTERFACE
 )
@@ -67472,6 +68216,9 @@ target_compile_options(GENERIC_G473MBTX_usb_HID INTERFACE
 )
 add_library(GENERIC_G473MBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473MBTX_usb_none INTERFACE
+)
+add_library(GENERIC_G473MBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473MBTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G473MBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473MBTX_xusb_FS INTERFACE
@@ -67552,6 +68299,9 @@ target_compile_options(GENERIC_G473MCTX_usb_HID INTERFACE
 add_library(GENERIC_G473MCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473MCTX_usb_none INTERFACE
 )
+add_library(GENERIC_G473MCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473MCTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G473MCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473MCTX_xusb_FS INTERFACE
 )
@@ -67630,6 +68380,9 @@ target_compile_options(GENERIC_G473METX_usb_HID INTERFACE
 )
 add_library(GENERIC_G473METX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473METX_usb_none INTERFACE
+)
+add_library(GENERIC_G473METX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473METX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G473METX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473METX_xusb_FS INTERFACE
@@ -67710,6 +68463,9 @@ target_compile_options(GENERIC_G473PBIX_usb_HID INTERFACE
 add_library(GENERIC_G473PBIX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473PBIX_usb_none INTERFACE
 )
+add_library(GENERIC_G473PBIX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473PBIX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G473PBIX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473PBIX_xusb_FS INTERFACE
 )
@@ -67788,6 +68544,9 @@ target_compile_options(GENERIC_G473PCIX_usb_HID INTERFACE
 )
 add_library(GENERIC_G473PCIX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473PCIX_usb_none INTERFACE
+)
+add_library(GENERIC_G473PCIX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473PCIX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G473PCIX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473PCIX_xusb_FS INTERFACE
@@ -67868,6 +68627,9 @@ target_compile_options(GENERIC_G473PEIX_usb_HID INTERFACE
 add_library(GENERIC_G473PEIX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473PEIX_usb_none INTERFACE
 )
+add_library(GENERIC_G473PEIX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473PEIX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G473PEIX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473PEIX_xusb_FS INTERFACE
 )
@@ -67946,6 +68708,9 @@ target_compile_options(GENERIC_G473QBTX_usb_HID INTERFACE
 )
 add_library(GENERIC_G473QBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473QBTX_usb_none INTERFACE
+)
+add_library(GENERIC_G473QBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473QBTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G473QBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473QBTX_xusb_FS INTERFACE
@@ -68026,6 +68791,9 @@ target_compile_options(GENERIC_G473QCTX_usb_HID INTERFACE
 add_library(GENERIC_G473QCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473QCTX_usb_none INTERFACE
 )
+add_library(GENERIC_G473QCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473QCTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G473QCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473QCTX_xusb_FS INTERFACE
 )
@@ -68104,6 +68872,9 @@ target_compile_options(GENERIC_G473QETX_usb_HID INTERFACE
 )
 add_library(GENERIC_G473QETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473QETX_usb_none INTERFACE
+)
+add_library(GENERIC_G473QETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473QETX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G473QETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473QETX_xusb_FS INTERFACE
@@ -68184,6 +68955,9 @@ target_compile_options(GENERIC_G473QETXZ_usb_HID INTERFACE
 add_library(GENERIC_G473QETXZ_usb_none INTERFACE)
 target_compile_options(GENERIC_G473QETXZ_usb_none INTERFACE
 )
+add_library(GENERIC_G473QETXZ_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473QETXZ_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G473QETXZ_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473QETXZ_xusb_FS INTERFACE
 )
@@ -68262,6 +69036,9 @@ target_compile_options(GENERIC_G473RBTX_usb_HID INTERFACE
 )
 add_library(GENERIC_G473RBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473RBTX_usb_none INTERFACE
+)
+add_library(GENERIC_G473RBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473RBTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G473RBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473RBTX_xusb_FS INTERFACE
@@ -68342,6 +69119,9 @@ target_compile_options(GENERIC_G473RCTX_usb_HID INTERFACE
 add_library(GENERIC_G473RCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473RCTX_usb_none INTERFACE
 )
+add_library(GENERIC_G473RCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473RCTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G473RCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473RCTX_xusb_FS INTERFACE
 )
@@ -68420,6 +69200,9 @@ target_compile_options(GENERIC_G473RETX_usb_HID INTERFACE
 )
 add_library(GENERIC_G473RETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473RETX_usb_none INTERFACE
+)
+add_library(GENERIC_G473RETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473RETX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G473RETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473RETX_xusb_FS INTERFACE
@@ -68500,6 +69283,9 @@ target_compile_options(GENERIC_G473RETXZ_usb_HID INTERFACE
 add_library(GENERIC_G473RETXZ_usb_none INTERFACE)
 target_compile_options(GENERIC_G473RETXZ_usb_none INTERFACE
 )
+add_library(GENERIC_G473RETXZ_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473RETXZ_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G473RETXZ_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473RETXZ_xusb_FS INTERFACE
 )
@@ -68578,6 +69364,9 @@ target_compile_options(GENERIC_G473VBHX_usb_HID INTERFACE
 )
 add_library(GENERIC_G473VBHX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473VBHX_usb_none INTERFACE
+)
+add_library(GENERIC_G473VBHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473VBHX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G473VBHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473VBHX_xusb_FS INTERFACE
@@ -68658,6 +69447,9 @@ target_compile_options(GENERIC_G473VBTX_usb_HID INTERFACE
 add_library(GENERIC_G473VBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473VBTX_usb_none INTERFACE
 )
+add_library(GENERIC_G473VBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473VBTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G473VBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473VBTX_xusb_FS INTERFACE
 )
@@ -68736,6 +69528,9 @@ target_compile_options(GENERIC_G473VCHX_usb_HID INTERFACE
 )
 add_library(GENERIC_G473VCHX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473VCHX_usb_none INTERFACE
+)
+add_library(GENERIC_G473VCHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473VCHX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G473VCHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473VCHX_xusb_FS INTERFACE
@@ -68816,6 +69611,9 @@ target_compile_options(GENERIC_G473VCTX_usb_HID INTERFACE
 add_library(GENERIC_G473VCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473VCTX_usb_none INTERFACE
 )
+add_library(GENERIC_G473VCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473VCTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G473VCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473VCTX_xusb_FS INTERFACE
 )
@@ -68894,6 +69692,9 @@ target_compile_options(GENERIC_G473VEHX_usb_HID INTERFACE
 )
 add_library(GENERIC_G473VEHX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473VEHX_usb_none INTERFACE
+)
+add_library(GENERIC_G473VEHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473VEHX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G473VEHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473VEHX_xusb_FS INTERFACE
@@ -68974,6 +69775,9 @@ target_compile_options(GENERIC_G473VETX_usb_HID INTERFACE
 add_library(GENERIC_G473VETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G473VETX_usb_none INTERFACE
 )
+add_library(GENERIC_G473VETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G473VETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G473VETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G473VETX_xusb_FS INTERFACE
 )
@@ -69052,6 +69856,9 @@ target_compile_options(GENERIC_G474CBTX_usb_HID INTERFACE
 )
 add_library(GENERIC_G474CBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474CBTX_usb_none INTERFACE
+)
+add_library(GENERIC_G474CBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474CBTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G474CBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474CBTX_xusb_FS INTERFACE
@@ -69132,6 +69939,9 @@ target_compile_options(GENERIC_G474CBUX_usb_HID INTERFACE
 add_library(GENERIC_G474CBUX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474CBUX_usb_none INTERFACE
 )
+add_library(GENERIC_G474CBUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474CBUX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G474CBUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474CBUX_xusb_FS INTERFACE
 )
@@ -69210,6 +70020,9 @@ target_compile_options(GENERIC_G474CCTX_usb_HID INTERFACE
 )
 add_library(GENERIC_G474CCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474CCTX_usb_none INTERFACE
+)
+add_library(GENERIC_G474CCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474CCTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G474CCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474CCTX_xusb_FS INTERFACE
@@ -69290,6 +70103,9 @@ target_compile_options(GENERIC_G474CCUX_usb_HID INTERFACE
 add_library(GENERIC_G474CCUX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474CCUX_usb_none INTERFACE
 )
+add_library(GENERIC_G474CCUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474CCUX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G474CCUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474CCUX_xusb_FS INTERFACE
 )
@@ -69368,6 +70184,9 @@ target_compile_options(GENERIC_G474CETX_usb_HID INTERFACE
 )
 add_library(GENERIC_G474CETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474CETX_usb_none INTERFACE
+)
+add_library(GENERIC_G474CETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474CETX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G474CETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474CETX_xusb_FS INTERFACE
@@ -69448,6 +70267,9 @@ target_compile_options(GENERIC_G474CEUX_usb_HID INTERFACE
 add_library(GENERIC_G474CEUX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474CEUX_usb_none INTERFACE
 )
+add_library(GENERIC_G474CEUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474CEUX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G474CEUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474CEUX_xusb_FS INTERFACE
 )
@@ -69526,6 +70348,9 @@ target_compile_options(GENERIC_G474MBTX_usb_HID INTERFACE
 )
 add_library(GENERIC_G474MBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474MBTX_usb_none INTERFACE
+)
+add_library(GENERIC_G474MBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474MBTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G474MBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474MBTX_xusb_FS INTERFACE
@@ -69606,6 +70431,9 @@ target_compile_options(GENERIC_G474MCTX_usb_HID INTERFACE
 add_library(GENERIC_G474MCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474MCTX_usb_none INTERFACE
 )
+add_library(GENERIC_G474MCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474MCTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G474MCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474MCTX_xusb_FS INTERFACE
 )
@@ -69684,6 +70512,9 @@ target_compile_options(GENERIC_G474METX_usb_HID INTERFACE
 )
 add_library(GENERIC_G474METX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474METX_usb_none INTERFACE
+)
+add_library(GENERIC_G474METX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474METX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G474METX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474METX_xusb_FS INTERFACE
@@ -69764,6 +70595,9 @@ target_compile_options(GENERIC_G474PBIX_usb_HID INTERFACE
 add_library(GENERIC_G474PBIX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474PBIX_usb_none INTERFACE
 )
+add_library(GENERIC_G474PBIX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474PBIX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G474PBIX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474PBIX_xusb_FS INTERFACE
 )
@@ -69842,6 +70676,9 @@ target_compile_options(GENERIC_G474PCIX_usb_HID INTERFACE
 )
 add_library(GENERIC_G474PCIX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474PCIX_usb_none INTERFACE
+)
+add_library(GENERIC_G474PCIX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474PCIX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G474PCIX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474PCIX_xusb_FS INTERFACE
@@ -69922,6 +70759,9 @@ target_compile_options(GENERIC_G474PEIX_usb_HID INTERFACE
 add_library(GENERIC_G474PEIX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474PEIX_usb_none INTERFACE
 )
+add_library(GENERIC_G474PEIX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474PEIX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G474PEIX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474PEIX_xusb_FS INTERFACE
 )
@@ -70000,6 +70840,9 @@ target_compile_options(GENERIC_G474QBTX_usb_HID INTERFACE
 )
 add_library(GENERIC_G474QBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474QBTX_usb_none INTERFACE
+)
+add_library(GENERIC_G474QBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474QBTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G474QBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474QBTX_xusb_FS INTERFACE
@@ -70080,6 +70923,9 @@ target_compile_options(GENERIC_G474QCTX_usb_HID INTERFACE
 add_library(GENERIC_G474QCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474QCTX_usb_none INTERFACE
 )
+add_library(GENERIC_G474QCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474QCTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G474QCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474QCTX_xusb_FS INTERFACE
 )
@@ -70158,6 +71004,9 @@ target_compile_options(GENERIC_G474QETX_usb_HID INTERFACE
 )
 add_library(GENERIC_G474QETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474QETX_usb_none INTERFACE
+)
+add_library(GENERIC_G474QETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474QETX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G474QETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474QETX_xusb_FS INTERFACE
@@ -70238,6 +71087,9 @@ target_compile_options(GENERIC_G474RBTX_usb_HID INTERFACE
 add_library(GENERIC_G474RBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474RBTX_usb_none INTERFACE
 )
+add_library(GENERIC_G474RBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474RBTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G474RBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474RBTX_xusb_FS INTERFACE
 )
@@ -70316,6 +71168,9 @@ target_compile_options(GENERIC_G474RCTX_usb_HID INTERFACE
 )
 add_library(GENERIC_G474RCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474RCTX_usb_none INTERFACE
+)
+add_library(GENERIC_G474RCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474RCTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G474RCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474RCTX_xusb_FS INTERFACE
@@ -70396,6 +71251,9 @@ target_compile_options(GENERIC_G474RETX_usb_HID INTERFACE
 add_library(GENERIC_G474RETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474RETX_usb_none INTERFACE
 )
+add_library(GENERIC_G474RETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474RETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G474RETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474RETX_xusb_FS INTERFACE
 )
@@ -70474,6 +71332,9 @@ target_compile_options(GENERIC_G474VBHX_usb_HID INTERFACE
 )
 add_library(GENERIC_G474VBHX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474VBHX_usb_none INTERFACE
+)
+add_library(GENERIC_G474VBHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474VBHX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G474VBHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474VBHX_xusb_FS INTERFACE
@@ -70554,6 +71415,9 @@ target_compile_options(GENERIC_G474VBTX_usb_HID INTERFACE
 add_library(GENERIC_G474VBTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474VBTX_usb_none INTERFACE
 )
+add_library(GENERIC_G474VBTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474VBTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G474VBTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474VBTX_xusb_FS INTERFACE
 )
@@ -70632,6 +71496,9 @@ target_compile_options(GENERIC_G474VCHX_usb_HID INTERFACE
 )
 add_library(GENERIC_G474VCHX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474VCHX_usb_none INTERFACE
+)
+add_library(GENERIC_G474VCHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474VCHX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G474VCHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474VCHX_xusb_FS INTERFACE
@@ -70712,6 +71579,9 @@ target_compile_options(GENERIC_G474VCTX_usb_HID INTERFACE
 add_library(GENERIC_G474VCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474VCTX_usb_none INTERFACE
 )
+add_library(GENERIC_G474VCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474VCTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G474VCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474VCTX_xusb_FS INTERFACE
 )
@@ -70790,6 +71660,9 @@ target_compile_options(GENERIC_G474VEHX_usb_HID INTERFACE
 )
 add_library(GENERIC_G474VEHX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474VEHX_usb_none INTERFACE
+)
+add_library(GENERIC_G474VEHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474VEHX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G474VEHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474VEHX_xusb_FS INTERFACE
@@ -70870,6 +71743,9 @@ target_compile_options(GENERIC_G474VETX_usb_HID INTERFACE
 add_library(GENERIC_G474VETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G474VETX_usb_none INTERFACE
 )
+add_library(GENERIC_G474VETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G474VETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G474VETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G474VETX_xusb_FS INTERFACE
 )
@@ -70948,6 +71824,9 @@ target_compile_options(GENERIC_G483CETX_usb_HID INTERFACE
 )
 add_library(GENERIC_G483CETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G483CETX_usb_none INTERFACE
+)
+add_library(GENERIC_G483CETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G483CETX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G483CETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G483CETX_xusb_FS INTERFACE
@@ -71028,6 +71907,9 @@ target_compile_options(GENERIC_G483CEUX_usb_HID INTERFACE
 add_library(GENERIC_G483CEUX_usb_none INTERFACE)
 target_compile_options(GENERIC_G483CEUX_usb_none INTERFACE
 )
+add_library(GENERIC_G483CEUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G483CEUX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G483CEUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G483CEUX_xusb_FS INTERFACE
 )
@@ -71106,6 +71988,9 @@ target_compile_options(GENERIC_G483METX_usb_HID INTERFACE
 )
 add_library(GENERIC_G483METX_usb_none INTERFACE)
 target_compile_options(GENERIC_G483METX_usb_none INTERFACE
+)
+add_library(GENERIC_G483METX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G483METX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G483METX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G483METX_xusb_FS INTERFACE
@@ -71186,6 +72071,9 @@ target_compile_options(GENERIC_G483PEIX_usb_HID INTERFACE
 add_library(GENERIC_G483PEIX_usb_none INTERFACE)
 target_compile_options(GENERIC_G483PEIX_usb_none INTERFACE
 )
+add_library(GENERIC_G483PEIX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G483PEIX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G483PEIX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G483PEIX_xusb_FS INTERFACE
 )
@@ -71264,6 +72152,9 @@ target_compile_options(GENERIC_G483QETX_usb_HID INTERFACE
 )
 add_library(GENERIC_G483QETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G483QETX_usb_none INTERFACE
+)
+add_library(GENERIC_G483QETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G483QETX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G483QETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G483QETX_xusb_FS INTERFACE
@@ -71344,6 +72235,9 @@ target_compile_options(GENERIC_G483RETX_usb_HID INTERFACE
 add_library(GENERIC_G483RETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G483RETX_usb_none INTERFACE
 )
+add_library(GENERIC_G483RETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G483RETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G483RETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G483RETX_xusb_FS INTERFACE
 )
@@ -71422,6 +72316,9 @@ target_compile_options(GENERIC_G483VEHX_usb_HID INTERFACE
 )
 add_library(GENERIC_G483VEHX_usb_none INTERFACE)
 target_compile_options(GENERIC_G483VEHX_usb_none INTERFACE
+)
+add_library(GENERIC_G483VEHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G483VEHX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G483VEHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G483VEHX_xusb_FS INTERFACE
@@ -71502,6 +72399,9 @@ target_compile_options(GENERIC_G483VETX_usb_HID INTERFACE
 add_library(GENERIC_G483VETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G483VETX_usb_none INTERFACE
 )
+add_library(GENERIC_G483VETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G483VETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G483VETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G483VETX_xusb_FS INTERFACE
 )
@@ -71580,6 +72480,9 @@ target_compile_options(GENERIC_G484CETX_usb_HID INTERFACE
 )
 add_library(GENERIC_G484CETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G484CETX_usb_none INTERFACE
+)
+add_library(GENERIC_G484CETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G484CETX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G484CETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G484CETX_xusb_FS INTERFACE
@@ -71660,6 +72563,9 @@ target_compile_options(GENERIC_G484CEUX_usb_HID INTERFACE
 add_library(GENERIC_G484CEUX_usb_none INTERFACE)
 target_compile_options(GENERIC_G484CEUX_usb_none INTERFACE
 )
+add_library(GENERIC_G484CEUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G484CEUX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G484CEUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G484CEUX_xusb_FS INTERFACE
 )
@@ -71738,6 +72644,9 @@ target_compile_options(GENERIC_G484METX_usb_HID INTERFACE
 )
 add_library(GENERIC_G484METX_usb_none INTERFACE)
 target_compile_options(GENERIC_G484METX_usb_none INTERFACE
+)
+add_library(GENERIC_G484METX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G484METX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G484METX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G484METX_xusb_FS INTERFACE
@@ -71818,6 +72727,9 @@ target_compile_options(GENERIC_G484PEIX_usb_HID INTERFACE
 add_library(GENERIC_G484PEIX_usb_none INTERFACE)
 target_compile_options(GENERIC_G484PEIX_usb_none INTERFACE
 )
+add_library(GENERIC_G484PEIX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G484PEIX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G484PEIX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G484PEIX_xusb_FS INTERFACE
 )
@@ -71896,6 +72808,9 @@ target_compile_options(GENERIC_G484QETX_usb_HID INTERFACE
 )
 add_library(GENERIC_G484QETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G484QETX_usb_none INTERFACE
+)
+add_library(GENERIC_G484QETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G484QETX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G484QETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G484QETX_xusb_FS INTERFACE
@@ -71976,6 +72891,9 @@ target_compile_options(GENERIC_G484RETX_usb_HID INTERFACE
 add_library(GENERIC_G484RETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G484RETX_usb_none INTERFACE
 )
+add_library(GENERIC_G484RETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G484RETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G484RETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G484RETX_xusb_FS INTERFACE
 )
@@ -72054,6 +72972,9 @@ target_compile_options(GENERIC_G484VEHX_usb_HID INTERFACE
 )
 add_library(GENERIC_G484VEHX_usb_none INTERFACE)
 target_compile_options(GENERIC_G484VEHX_usb_none INTERFACE
+)
+add_library(GENERIC_G484VEHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G484VEHX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G484VEHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G484VEHX_xusb_FS INTERFACE
@@ -72134,6 +73055,9 @@ target_compile_options(GENERIC_G484VETX_usb_HID INTERFACE
 add_library(GENERIC_G484VETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G484VETX_usb_none INTERFACE
 )
+add_library(GENERIC_G484VETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G484VETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G484VETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G484VETX_xusb_FS INTERFACE
 )
@@ -72212,6 +73136,9 @@ target_compile_options(GENERIC_G491CCTX_usb_HID INTERFACE
 )
 add_library(GENERIC_G491CCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G491CCTX_usb_none INTERFACE
+)
+add_library(GENERIC_G491CCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G491CCTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G491CCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G491CCTX_xusb_FS INTERFACE
@@ -72292,6 +73219,9 @@ target_compile_options(GENERIC_G491CETX_usb_HID INTERFACE
 add_library(GENERIC_G491CETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G491CETX_usb_none INTERFACE
 )
+add_library(GENERIC_G491CETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G491CETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G491CETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G491CETX_xusb_FS INTERFACE
 )
@@ -72370,6 +73300,9 @@ target_compile_options(GENERIC_G491KCUX_usb_HID INTERFACE
 )
 add_library(GENERIC_G491KCUX_usb_none INTERFACE)
 target_compile_options(GENERIC_G491KCUX_usb_none INTERFACE
+)
+add_library(GENERIC_G491KCUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G491KCUX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G491KCUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G491KCUX_xusb_FS INTERFACE
@@ -72450,6 +73383,9 @@ target_compile_options(GENERIC_G491KEUX_usb_HID INTERFACE
 add_library(GENERIC_G491KEUX_usb_none INTERFACE)
 target_compile_options(GENERIC_G491KEUX_usb_none INTERFACE
 )
+add_library(GENERIC_G491KEUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G491KEUX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G491KEUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G491KEUX_xusb_FS INTERFACE
 )
@@ -72528,6 +73464,9 @@ target_compile_options(GENERIC_G491MCSX_usb_HID INTERFACE
 )
 add_library(GENERIC_G491MCSX_usb_none INTERFACE)
 target_compile_options(GENERIC_G491MCSX_usb_none INTERFACE
+)
+add_library(GENERIC_G491MCSX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G491MCSX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G491MCSX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G491MCSX_xusb_FS INTERFACE
@@ -72608,6 +73547,9 @@ target_compile_options(GENERIC_G491MCTX_usb_HID INTERFACE
 add_library(GENERIC_G491MCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G491MCTX_usb_none INTERFACE
 )
+add_library(GENERIC_G491MCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G491MCTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G491MCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G491MCTX_xusb_FS INTERFACE
 )
@@ -72686,6 +73628,9 @@ target_compile_options(GENERIC_G491MESX_usb_HID INTERFACE
 )
 add_library(GENERIC_G491MESX_usb_none INTERFACE)
 target_compile_options(GENERIC_G491MESX_usb_none INTERFACE
+)
+add_library(GENERIC_G491MESX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G491MESX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G491MESX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G491MESX_xusb_FS INTERFACE
@@ -72766,6 +73711,9 @@ target_compile_options(GENERIC_G491METX_usb_HID INTERFACE
 add_library(GENERIC_G491METX_usb_none INTERFACE)
 target_compile_options(GENERIC_G491METX_usb_none INTERFACE
 )
+add_library(GENERIC_G491METX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G491METX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G491METX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G491METX_xusb_FS INTERFACE
 )
@@ -72844,6 +73792,9 @@ target_compile_options(GENERIC_G491RCIX_usb_HID INTERFACE
 )
 add_library(GENERIC_G491RCIX_usb_none INTERFACE)
 target_compile_options(GENERIC_G491RCIX_usb_none INTERFACE
+)
+add_library(GENERIC_G491RCIX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G491RCIX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G491RCIX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G491RCIX_xusb_FS INTERFACE
@@ -72924,6 +73875,9 @@ target_compile_options(GENERIC_G491RCTX_usb_HID INTERFACE
 add_library(GENERIC_G491RCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G491RCTX_usb_none INTERFACE
 )
+add_library(GENERIC_G491RCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G491RCTX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G491RCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G491RCTX_xusb_FS INTERFACE
 )
@@ -73002,6 +73956,9 @@ target_compile_options(GENERIC_G491REIX_usb_HID INTERFACE
 )
 add_library(GENERIC_G491REIX_usb_none INTERFACE)
 target_compile_options(GENERIC_G491REIX_usb_none INTERFACE
+)
+add_library(GENERIC_G491REIX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G491REIX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G491REIX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G491REIX_xusb_FS INTERFACE
@@ -73082,6 +74039,9 @@ target_compile_options(GENERIC_G491RETX_usb_HID INTERFACE
 add_library(GENERIC_G491RETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G491RETX_usb_none INTERFACE
 )
+add_library(GENERIC_G491RETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G491RETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G491RETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G491RETX_xusb_FS INTERFACE
 )
@@ -73160,6 +74120,9 @@ target_compile_options(GENERIC_G491RETXZ_usb_HID INTERFACE
 )
 add_library(GENERIC_G491RETXZ_usb_none INTERFACE)
 target_compile_options(GENERIC_G491RETXZ_usb_none INTERFACE
+)
+add_library(GENERIC_G491RETXZ_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G491RETXZ_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G491RETXZ_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G491RETXZ_xusb_FS INTERFACE
@@ -73240,6 +74203,9 @@ target_compile_options(GENERIC_G491REYX_usb_HID INTERFACE
 add_library(GENERIC_G491REYX_usb_none INTERFACE)
 target_compile_options(GENERIC_G491REYX_usb_none INTERFACE
 )
+add_library(GENERIC_G491REYX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G491REYX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G491REYX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G491REYX_xusb_FS INTERFACE
 )
@@ -73318,6 +74284,9 @@ target_compile_options(GENERIC_G491VCTX_usb_HID INTERFACE
 )
 add_library(GENERIC_G491VCTX_usb_none INTERFACE)
 target_compile_options(GENERIC_G491VCTX_usb_none INTERFACE
+)
+add_library(GENERIC_G491VCTX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G491VCTX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G491VCTX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G491VCTX_xusb_FS INTERFACE
@@ -73398,6 +74367,9 @@ target_compile_options(GENERIC_G491VETX_usb_HID INTERFACE
 add_library(GENERIC_G491VETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G491VETX_usb_none INTERFACE
 )
+add_library(GENERIC_G491VETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G491VETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G491VETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G491VETX_xusb_FS INTERFACE
 )
@@ -73476,6 +74448,9 @@ target_compile_options(GENERIC_G4A1CETX_usb_HID INTERFACE
 )
 add_library(GENERIC_G4A1CETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G4A1CETX_usb_none INTERFACE
+)
+add_library(GENERIC_G4A1CETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G4A1CETX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G4A1CETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G4A1CETX_xusb_FS INTERFACE
@@ -73556,6 +74531,9 @@ target_compile_options(GENERIC_G4A1KEUX_usb_HID INTERFACE
 add_library(GENERIC_G4A1KEUX_usb_none INTERFACE)
 target_compile_options(GENERIC_G4A1KEUX_usb_none INTERFACE
 )
+add_library(GENERIC_G4A1KEUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G4A1KEUX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G4A1KEUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G4A1KEUX_xusb_FS INTERFACE
 )
@@ -73634,6 +74612,9 @@ target_compile_options(GENERIC_G4A1MESX_usb_HID INTERFACE
 )
 add_library(GENERIC_G4A1MESX_usb_none INTERFACE)
 target_compile_options(GENERIC_G4A1MESX_usb_none INTERFACE
+)
+add_library(GENERIC_G4A1MESX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G4A1MESX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G4A1MESX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G4A1MESX_xusb_FS INTERFACE
@@ -73714,6 +74695,9 @@ target_compile_options(GENERIC_G4A1METX_usb_HID INTERFACE
 add_library(GENERIC_G4A1METX_usb_none INTERFACE)
 target_compile_options(GENERIC_G4A1METX_usb_none INTERFACE
 )
+add_library(GENERIC_G4A1METX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G4A1METX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G4A1METX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G4A1METX_xusb_FS INTERFACE
 )
@@ -73792,6 +74776,9 @@ target_compile_options(GENERIC_G4A1REIX_usb_HID INTERFACE
 )
 add_library(GENERIC_G4A1REIX_usb_none INTERFACE)
 target_compile_options(GENERIC_G4A1REIX_usb_none INTERFACE
+)
+add_library(GENERIC_G4A1REIX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G4A1REIX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G4A1REIX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G4A1REIX_xusb_FS INTERFACE
@@ -73872,6 +74859,9 @@ target_compile_options(GENERIC_G4A1RETX_usb_HID INTERFACE
 add_library(GENERIC_G4A1RETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G4A1RETX_usb_none INTERFACE
 )
+add_library(GENERIC_G4A1RETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G4A1RETX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G4A1RETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G4A1RETX_xusb_FS INTERFACE
 )
@@ -73951,6 +74941,9 @@ target_compile_options(GENERIC_G4A1REYX_usb_HID INTERFACE
 add_library(GENERIC_G4A1REYX_usb_none INTERFACE)
 target_compile_options(GENERIC_G4A1REYX_usb_none INTERFACE
 )
+add_library(GENERIC_G4A1REYX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G4A1REYX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_G4A1REYX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G4A1REYX_xusb_FS INTERFACE
 )
@@ -74029,6 +75022,9 @@ target_compile_options(GENERIC_G4A1VETX_usb_HID INTERFACE
 )
 add_library(GENERIC_G4A1VETX_usb_none INTERFACE)
 target_compile_options(GENERIC_G4A1VETX_usb_none INTERFACE
+)
+add_library(GENERIC_G4A1VETX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_G4A1VETX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_G4A1VETX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_G4A1VETX_xusb_FS INTERFACE
@@ -102850,6 +103846,9 @@ target_compile_options(GENERIC_WB15CCUX_usb_HID INTERFACE
 add_library(GENERIC_WB15CCUX_usb_none INTERFACE)
 target_compile_options(GENERIC_WB15CCUX_usb_none INTERFACE
 )
+add_library(GENERIC_WB15CCUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_WB15CCUX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_WB15CCUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_WB15CCUX_xusb_FS INTERFACE
 )
@@ -102928,6 +103927,9 @@ target_compile_options(GENERIC_WB55CCUX_usb_HID INTERFACE
 )
 add_library(GENERIC_WB55CCUX_usb_none INTERFACE)
 target_compile_options(GENERIC_WB55CCUX_usb_none INTERFACE
+)
+add_library(GENERIC_WB55CCUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_WB55CCUX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_WB55CCUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_WB55CCUX_xusb_FS INTERFACE
@@ -103008,6 +104010,9 @@ target_compile_options(GENERIC_WB55CEUX_usb_HID INTERFACE
 add_library(GENERIC_WB55CEUX_usb_none INTERFACE)
 target_compile_options(GENERIC_WB55CEUX_usb_none INTERFACE
 )
+add_library(GENERIC_WB55CEUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_WB55CEUX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_WB55CEUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_WB55CEUX_xusb_FS INTERFACE
 )
@@ -103086,6 +104091,9 @@ target_compile_options(GENERIC_WB55CGUX_usb_HID INTERFACE
 )
 add_library(GENERIC_WB55CGUX_usb_none INTERFACE)
 target_compile_options(GENERIC_WB55CGUX_usb_none INTERFACE
+)
+add_library(GENERIC_WB55CGUX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_WB55CGUX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_WB55CGUX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_WB55CGUX_xusb_FS INTERFACE
@@ -103166,6 +104174,9 @@ target_compile_options(GENERIC_WB55RCVX_usb_HID INTERFACE
 add_library(GENERIC_WB55RCVX_usb_none INTERFACE)
 target_compile_options(GENERIC_WB55RCVX_usb_none INTERFACE
 )
+add_library(GENERIC_WB55RCVX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_WB55RCVX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_WB55RCVX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_WB55RCVX_xusb_FS INTERFACE
 )
@@ -103244,6 +104255,9 @@ target_compile_options(GENERIC_WB55REVX_usb_HID INTERFACE
 )
 add_library(GENERIC_WB55REVX_usb_none INTERFACE)
 target_compile_options(GENERIC_WB55REVX_usb_none INTERFACE
+)
+add_library(GENERIC_WB55REVX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_WB55REVX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_WB55REVX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_WB55REVX_xusb_FS INTERFACE
@@ -103324,6 +104338,9 @@ target_compile_options(GENERIC_WB55RGVX_usb_HID INTERFACE
 add_library(GENERIC_WB55RGVX_usb_none INTERFACE)
 target_compile_options(GENERIC_WB55RGVX_usb_none INTERFACE
 )
+add_library(GENERIC_WB55RGVX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_WB55RGVX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_WB55RGVX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_WB55RGVX_xusb_FS INTERFACE
 )
@@ -103402,6 +104419,9 @@ target_compile_options(GENERIC_WB55VCQX_usb_HID INTERFACE
 )
 add_library(GENERIC_WB55VCQX_usb_none INTERFACE)
 target_compile_options(GENERIC_WB55VCQX_usb_none INTERFACE
+)
+add_library(GENERIC_WB55VCQX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_WB55VCQX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_WB55VCQX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_WB55VCQX_xusb_FS INTERFACE
@@ -103482,6 +104502,9 @@ target_compile_options(GENERIC_WB55VCYX_usb_HID INTERFACE
 add_library(GENERIC_WB55VCYX_usb_none INTERFACE)
 target_compile_options(GENERIC_WB55VCYX_usb_none INTERFACE
 )
+add_library(GENERIC_WB55VCYX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_WB55VCYX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_WB55VCYX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_WB55VCYX_xusb_FS INTERFACE
 )
@@ -103560,6 +104583,9 @@ target_compile_options(GENERIC_WB55VEQX_usb_HID INTERFACE
 )
 add_library(GENERIC_WB55VEQX_usb_none INTERFACE)
 target_compile_options(GENERIC_WB55VEQX_usb_none INTERFACE
+)
+add_library(GENERIC_WB55VEQX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_WB55VEQX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_WB55VEQX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_WB55VEQX_xusb_FS INTERFACE
@@ -103640,6 +104666,9 @@ target_compile_options(GENERIC_WB55VEYX_usb_HID INTERFACE
 add_library(GENERIC_WB55VEYX_usb_none INTERFACE)
 target_compile_options(GENERIC_WB55VEYX_usb_none INTERFACE
 )
+add_library(GENERIC_WB55VEYX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_WB55VEYX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_WB55VEYX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_WB55VEYX_xusb_FS INTERFACE
 )
@@ -103718,6 +104747,9 @@ target_compile_options(GENERIC_WB55VGQX_usb_HID INTERFACE
 )
 add_library(GENERIC_WB55VGQX_usb_none INTERFACE)
 target_compile_options(GENERIC_WB55VGQX_usb_none INTERFACE
+)
+add_library(GENERIC_WB55VGQX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_WB55VGQX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_WB55VGQX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_WB55VGQX_xusb_FS INTERFACE
@@ -103798,6 +104830,9 @@ target_compile_options(GENERIC_WB55VGYX_usb_HID INTERFACE
 add_library(GENERIC_WB55VGYX_usb_none INTERFACE)
 target_compile_options(GENERIC_WB55VGYX_usb_none INTERFACE
 )
+add_library(GENERIC_WB55VGYX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_WB55VGYX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_WB55VGYX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_WB55VGYX_xusb_FS INTERFACE
 )
@@ -103877,6 +104912,9 @@ target_compile_options(GENERIC_WB55VYYX_usb_HID INTERFACE
 add_library(GENERIC_WB55VYYX_usb_none INTERFACE)
 target_compile_options(GENERIC_WB55VYYX_usb_none INTERFACE
 )
+add_library(GENERIC_WB55VYYX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_WB55VYYX_usb_TinyUSB INTERFACE
+)
 add_library(GENERIC_WB55VYYX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_WB55VYYX_xusb_FS INTERFACE
 )
@@ -103955,6 +104993,9 @@ target_compile_options(GENERIC_WB5MMGHX_usb_HID INTERFACE
 )
 add_library(GENERIC_WB5MMGHX_usb_none INTERFACE)
 target_compile_options(GENERIC_WB5MMGHX_usb_none INTERFACE
+)
+add_library(GENERIC_WB5MMGHX_usb_TinyUSB INTERFACE)
+target_compile_options(GENERIC_WB5MMGHX_usb_TinyUSB INTERFACE
 )
 add_library(GENERIC_WB5MMGHX_xusb_FS INTERFACE)
 target_compile_options(GENERIC_WB5MMGHX_xusb_FS INTERFACE
@@ -105341,6 +106382,9 @@ target_compile_options(HY_TINYSTM103TB_usb_HID INTERFACE
 add_library(HY_TINYSTM103TB_usb_none INTERFACE)
 target_compile_options(HY_TINYSTM103TB_usb_none INTERFACE
 )
+add_library(HY_TINYSTM103TB_usb_TinyUSB INTERFACE)
+target_compile_options(HY_TINYSTM103TB_usb_TinyUSB INTERFACE
+)
 add_library(HY_TINYSTM103TB_xusb_FS INTERFACE)
 target_compile_options(HY_TINYSTM103TB_xusb_FS INTERFACE
 )
@@ -105893,6 +106937,9 @@ target_compile_options(MAPLEMINI_F103CB_usb_HID INTERFACE
 add_library(MAPLEMINI_F103CB_usb_none INTERFACE)
 target_compile_options(MAPLEMINI_F103CB_usb_none INTERFACE
 )
+add_library(MAPLEMINI_F103CB_usb_TinyUSB INTERFACE)
+target_compile_options(MAPLEMINI_F103CB_usb_TinyUSB INTERFACE
+)
 add_library(MAPLEMINI_F103CB_xusb_FS INTERFACE)
 target_compile_options(MAPLEMINI_F103CB_xusb_FS INTERFACE
 )
@@ -106249,6 +107296,9 @@ target_compile_options(NUCLEO_C031C6_usb_HID INTERFACE
 add_library(NUCLEO_C031C6_usb_none INTERFACE)
 target_compile_options(NUCLEO_C031C6_usb_none INTERFACE
 )
+add_library(NUCLEO_C031C6_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_C031C6_usb_TinyUSB INTERFACE
+)
 add_library(NUCLEO_C031C6_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_C031C6_xusb_FS INTERFACE
 )
@@ -106327,6 +107377,9 @@ target_compile_options(NUCLEO_C071RB_usb_HID INTERFACE
 add_library(NUCLEO_C071RB_usb_none INTERFACE)
 target_compile_options(NUCLEO_C071RB_usb_none INTERFACE
 )
+add_library(NUCLEO_C071RB_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_C071RB_usb_TinyUSB INTERFACE
+)
 add_library(NUCLEO_C071RB_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_C071RB_xusb_FS INTERFACE
 )
@@ -106403,6 +107456,9 @@ target_compile_options(NUCLEO_C092RC_usb_HID INTERFACE
 )
 add_library(NUCLEO_C092RC_usb_none INTERFACE)
 target_compile_options(NUCLEO_C092RC_usb_none INTERFACE
+)
+add_library(NUCLEO_C092RC_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_C092RC_usb_TinyUSB INTERFACE
 )
 add_library(NUCLEO_C092RC_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_C092RC_xusb_FS INTERFACE
@@ -106483,6 +107539,9 @@ target_compile_options(NUCLEO_C562RE_usb_HID INTERFACE
 add_library(NUCLEO_C562RE_usb_none INTERFACE)
 target_compile_options(NUCLEO_C562RE_usb_none INTERFACE
 )
+add_library(NUCLEO_C562RE_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_C562RE_usb_TinyUSB INTERFACE
+)
 add_library(NUCLEO_C562RE_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_C562RE_xusb_FS INTERFACE
 )
@@ -106559,6 +107618,9 @@ target_compile_options(NUCLEO_F030R8_usb_HID INTERFACE
 )
 add_library(NUCLEO_F030R8_usb_none INTERFACE)
 target_compile_options(NUCLEO_F030R8_usb_none INTERFACE
+)
+add_library(NUCLEO_F030R8_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F030R8_usb_TinyUSB INTERFACE
 )
 add_library(NUCLEO_F030R8_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F030R8_xusb_FS INTERFACE
@@ -106791,6 +107853,9 @@ target_compile_options(NUCLEO_F070RB_usb_HID INTERFACE
 add_library(NUCLEO_F070RB_usb_none INTERFACE)
 target_compile_options(NUCLEO_F070RB_usb_none INTERFACE
 )
+add_library(NUCLEO_F070RB_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F070RB_usb_TinyUSB INTERFACE
+)
 add_library(NUCLEO_F070RB_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F070RB_xusb_FS INTERFACE
 )
@@ -106867,6 +107932,9 @@ target_compile_options(NUCLEO_F072RB_usb_HID INTERFACE
 )
 add_library(NUCLEO_F072RB_usb_none INTERFACE)
 target_compile_options(NUCLEO_F072RB_usb_none INTERFACE
+)
+add_library(NUCLEO_F072RB_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F072RB_usb_TinyUSB INTERFACE
 )
 add_library(NUCLEO_F072RB_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F072RB_xusb_FS INTERFACE
@@ -106945,6 +108013,9 @@ target_compile_options(NUCLEO_F091RC_usb_HID INTERFACE
 add_library(NUCLEO_F091RC_usb_none INTERFACE)
 target_compile_options(NUCLEO_F091RC_usb_none INTERFACE
 )
+add_library(NUCLEO_F091RC_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F091RC_usb_TinyUSB INTERFACE
+)
 add_library(NUCLEO_F091RC_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F091RC_xusb_FS INTERFACE
 )
@@ -107021,6 +108092,9 @@ target_compile_options(NUCLEO_F103RB_usb_HID INTERFACE
 )
 add_library(NUCLEO_F103RB_usb_none INTERFACE)
 target_compile_options(NUCLEO_F103RB_usb_none INTERFACE
+)
+add_library(NUCLEO_F103RB_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F103RB_usb_TinyUSB INTERFACE
 )
 add_library(NUCLEO_F103RB_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F103RB_xusb_FS INTERFACE
@@ -107100,6 +108174,10 @@ target_compile_options(NUCLEO_F207ZG_usb_HID INTERFACE
 add_library(NUCLEO_F207ZG_usb_none INTERFACE)
 target_compile_options(NUCLEO_F207ZG_usb_none INTERFACE
 )
+add_library(NUCLEO_F207ZG_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F207ZG_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
+)
 add_library(NUCLEO_F207ZG_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F207ZG_xusb_FS INTERFACE
 )
@@ -107178,6 +108256,9 @@ target_compile_options(NUCLEO_F302R8_usb_HID INTERFACE
 )
 add_library(NUCLEO_F302R8_usb_none INTERFACE)
 target_compile_options(NUCLEO_F302R8_usb_none INTERFACE
+)
+add_library(NUCLEO_F302R8_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F302R8_usb_TinyUSB INTERFACE
 )
 add_library(NUCLEO_F302R8_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F302R8_xusb_FS INTERFACE
@@ -107337,6 +108418,9 @@ target_compile_options(NUCLEO_F303RE_usb_HID INTERFACE
 add_library(NUCLEO_F303RE_usb_none INTERFACE)
 target_compile_options(NUCLEO_F303RE_usb_none INTERFACE
 )
+add_library(NUCLEO_F303RE_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F303RE_usb_TinyUSB INTERFACE
+)
 add_library(NUCLEO_F303RE_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F303RE_xusb_FS INTERFACE
 )
@@ -107415,6 +108499,9 @@ target_compile_options(NUCLEO_F334R8_usb_HID INTERFACE
 )
 add_library(NUCLEO_F334R8_usb_none INTERFACE)
 target_compile_options(NUCLEO_F334R8_usb_none INTERFACE
+)
+add_library(NUCLEO_F334R8_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F334R8_usb_TinyUSB INTERFACE
 )
 add_library(NUCLEO_F334R8_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F334R8_xusb_FS INTERFACE
@@ -107495,6 +108582,9 @@ target_compile_options(NUCLEO_F401RE_usb_HID INTERFACE
 add_library(NUCLEO_F401RE_usb_none INTERFACE)
 target_compile_options(NUCLEO_F401RE_usb_none INTERFACE
 )
+add_library(NUCLEO_F401RE_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F401RE_usb_TinyUSB INTERFACE
+)
 add_library(NUCLEO_F401RE_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F401RE_xusb_FS INTERFACE
 )
@@ -107573,6 +108663,9 @@ target_compile_options(NUCLEO_F410RB_usb_HID INTERFACE
 )
 add_library(NUCLEO_F410RB_usb_none INTERFACE)
 target_compile_options(NUCLEO_F410RB_usb_none INTERFACE
+)
+add_library(NUCLEO_F410RB_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F410RB_usb_TinyUSB INTERFACE
 )
 add_library(NUCLEO_F410RB_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F410RB_xusb_FS INTERFACE
@@ -107653,6 +108746,9 @@ target_compile_options(NUCLEO_F411RE_usb_HID INTERFACE
 add_library(NUCLEO_F411RE_usb_none INTERFACE)
 target_compile_options(NUCLEO_F411RE_usb_none INTERFACE
 )
+add_library(NUCLEO_F411RE_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F411RE_usb_TinyUSB INTERFACE
+)
 add_library(NUCLEO_F411RE_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F411RE_xusb_FS INTERFACE
 )
@@ -107732,6 +108828,10 @@ target_compile_options(NUCLEO_F412ZG_usb_HID INTERFACE
 add_library(NUCLEO_F412ZG_usb_none INTERFACE)
 target_compile_options(NUCLEO_F412ZG_usb_none INTERFACE
 )
+add_library(NUCLEO_F412ZG_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F412ZG_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
+)
 add_library(NUCLEO_F412ZG_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F412ZG_xusb_FS INTERFACE
 )
@@ -107810,6 +108910,10 @@ target_compile_options(NUCLEO_F413ZH_usb_HID INTERFACE
 )
 add_library(NUCLEO_F413ZH_usb_none INTERFACE)
 target_compile_options(NUCLEO_F413ZH_usb_none INTERFACE
+)
+add_library(NUCLEO_F413ZH_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F413ZH_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
 )
 add_library(NUCLEO_F413ZH_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F413ZH_xusb_FS INTERFACE
@@ -107891,6 +108995,10 @@ target_compile_options(NUCLEO_F429ZI_usb_HID INTERFACE
 add_library(NUCLEO_F429ZI_usb_none INTERFACE)
 target_compile_options(NUCLEO_F429ZI_usb_none INTERFACE
 )
+add_library(NUCLEO_F429ZI_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F429ZI_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
+)
 add_library(NUCLEO_F429ZI_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F429ZI_xusb_FS INTERFACE
 )
@@ -107971,6 +109079,10 @@ target_compile_options(NUCLEO_F439ZI_usb_HID INTERFACE
 add_library(NUCLEO_F439ZI_usb_none INTERFACE)
 target_compile_options(NUCLEO_F439ZI_usb_none INTERFACE
 )
+add_library(NUCLEO_F439ZI_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F439ZI_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
+)
 add_library(NUCLEO_F439ZI_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F439ZI_xusb_FS INTERFACE
 )
@@ -108049,6 +109161,9 @@ target_compile_options(NUCLEO_F446RE_usb_HID INTERFACE
 )
 add_library(NUCLEO_F446RE_usb_none INTERFACE)
 target_compile_options(NUCLEO_F446RE_usb_none INTERFACE
+)
+add_library(NUCLEO_F446RE_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F446RE_usb_TinyUSB INTERFACE
 )
 add_library(NUCLEO_F446RE_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F446RE_xusb_FS INTERFACE
@@ -108129,6 +109244,10 @@ target_compile_options(NUCLEO_F446ZE_usb_HID INTERFACE
 add_library(NUCLEO_F446ZE_usb_none INTERFACE)
 target_compile_options(NUCLEO_F446ZE_usb_none INTERFACE
 )
+add_library(NUCLEO_F446ZE_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F446ZE_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
+)
 add_library(NUCLEO_F446ZE_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F446ZE_xusb_FS INTERFACE
 )
@@ -108207,6 +109326,10 @@ target_compile_options(NUCLEO_F722ZE_usb_HID INTERFACE
 )
 add_library(NUCLEO_F722ZE_usb_none INTERFACE)
 target_compile_options(NUCLEO_F722ZE_usb_none INTERFACE
+)
+add_library(NUCLEO_F722ZE_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F722ZE_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
 )
 add_library(NUCLEO_F722ZE_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F722ZE_xusb_FS INTERFACE
@@ -108288,6 +109411,10 @@ target_compile_options(NUCLEO_F746ZG_usb_HID INTERFACE
 add_library(NUCLEO_F746ZG_usb_none INTERFACE)
 target_compile_options(NUCLEO_F746ZG_usb_none INTERFACE
 )
+add_library(NUCLEO_F746ZG_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F746ZG_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
+)
 add_library(NUCLEO_F746ZG_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F746ZG_xusb_FS INTERFACE
 )
@@ -108367,6 +109494,10 @@ target_compile_options(NUCLEO_F756ZG_usb_HID INTERFACE
 add_library(NUCLEO_F756ZG_usb_none INTERFACE)
 target_compile_options(NUCLEO_F756ZG_usb_none INTERFACE
 )
+add_library(NUCLEO_F756ZG_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F756ZG_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
+)
 add_library(NUCLEO_F756ZG_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F756ZG_xusb_FS INTERFACE
 )
@@ -108445,6 +109576,10 @@ target_compile_options(NUCLEO_F767ZI_usb_HID INTERFACE
 )
 add_library(NUCLEO_F767ZI_usb_none INTERFACE)
 target_compile_options(NUCLEO_F767ZI_usb_none INTERFACE
+)
+add_library(NUCLEO_F767ZI_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F767ZI_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
 )
 add_library(NUCLEO_F767ZI_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F767ZI_xusb_FS INTERFACE
@@ -108600,6 +109735,9 @@ target_compile_options(NUCLEO_G070RB_usb_HID INTERFACE
 add_library(NUCLEO_G070RB_usb_none INTERFACE)
 target_compile_options(NUCLEO_G070RB_usb_none INTERFACE
 )
+add_library(NUCLEO_G070RB_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_G070RB_usb_TinyUSB INTERFACE
+)
 add_library(NUCLEO_G070RB_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_G070RB_xusb_FS INTERFACE
 )
@@ -108677,6 +109815,9 @@ target_compile_options(NUCLEO_G071RB_usb_HID INTERFACE
 add_library(NUCLEO_G071RB_usb_none INTERFACE)
 target_compile_options(NUCLEO_G071RB_usb_none INTERFACE
 )
+add_library(NUCLEO_G071RB_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_G071RB_usb_TinyUSB INTERFACE
+)
 add_library(NUCLEO_G071RB_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_G071RB_xusb_FS INTERFACE
 )
@@ -108753,6 +109894,9 @@ target_compile_options(NUCLEO_G0B1RE_usb_HID INTERFACE
 )
 add_library(NUCLEO_G0B1RE_usb_none INTERFACE)
 target_compile_options(NUCLEO_G0B1RE_usb_none INTERFACE
+)
+add_library(NUCLEO_G0B1RE_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_G0B1RE_usb_TinyUSB INTERFACE
 )
 add_library(NUCLEO_G0B1RE_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_G0B1RE_xusb_FS INTERFACE
@@ -108912,6 +110056,9 @@ target_compile_options(NUCLEO_G431RB_usb_HID INTERFACE
 add_library(NUCLEO_G431RB_usb_none INTERFACE)
 target_compile_options(NUCLEO_G431RB_usb_none INTERFACE
 )
+add_library(NUCLEO_G431RB_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_G431RB_usb_TinyUSB INTERFACE
+)
 add_library(NUCLEO_G431RB_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_G431RB_xusb_FS INTERFACE
 )
@@ -108990,6 +110137,9 @@ target_compile_options(NUCLEO_G474RE_usb_HID INTERFACE
 )
 add_library(NUCLEO_G474RE_usb_none INTERFACE)
 target_compile_options(NUCLEO_G474RE_usb_none INTERFACE
+)
+add_library(NUCLEO_G474RE_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_G474RE_usb_TinyUSB INTERFACE
 )
 add_library(NUCLEO_G474RE_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_G474RE_xusb_FS INTERFACE
@@ -109070,6 +110220,9 @@ target_compile_options(NUCLEO_H503RB_usb_HID INTERFACE
 add_library(NUCLEO_H503RB_usb_none INTERFACE)
 target_compile_options(NUCLEO_H503RB_usb_none INTERFACE
 )
+add_library(NUCLEO_H503RB_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_H503RB_usb_TinyUSB INTERFACE
+)
 add_library(NUCLEO_H503RB_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_H503RB_xusb_FS INTERFACE
 )
@@ -109148,6 +110301,10 @@ target_compile_options(NUCLEO_H563ZI_usb_HID INTERFACE
 )
 add_library(NUCLEO_H563ZI_usb_none INTERFACE)
 target_compile_options(NUCLEO_H563ZI_usb_none INTERFACE
+)
+add_library(NUCLEO_H563ZI_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_H563ZI_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
 )
 add_library(NUCLEO_H563ZI_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_H563ZI_xusb_FS INTERFACE
@@ -109228,6 +110385,10 @@ target_compile_options(NUCLEO_H723ZG_usb_HID INTERFACE
 add_library(NUCLEO_H723ZG_usb_none INTERFACE)
 target_compile_options(NUCLEO_H723ZG_usb_none INTERFACE
 )
+add_library(NUCLEO_H723ZG_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_H723ZG_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
+)
 add_library(NUCLEO_H723ZG_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_H723ZG_xusb_FS INTERFACE
 )
@@ -109306,6 +110467,10 @@ target_compile_options(NUCLEO_H743ZI_usb_HID INTERFACE
 )
 add_library(NUCLEO_H743ZI_usb_none INTERFACE)
 target_compile_options(NUCLEO_H743ZI_usb_none INTERFACE
+)
+add_library(NUCLEO_H743ZI_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_H743ZI_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
 )
 add_library(NUCLEO_H743ZI_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_H743ZI_xusb_FS INTERFACE
@@ -109386,6 +110551,10 @@ target_compile_options(NUCLEO_H743ZI2_usb_HID INTERFACE
 add_library(NUCLEO_H743ZI2_usb_none INTERFACE)
 target_compile_options(NUCLEO_H743ZI2_usb_none INTERFACE
 )
+add_library(NUCLEO_H743ZI2_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_H743ZI2_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
+)
 add_library(NUCLEO_H743ZI2_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_H743ZI2_xusb_FS INTERFACE
 )
@@ -109464,6 +110633,10 @@ target_compile_options(NUCLEO_H745ZI_Q_usb_HID INTERFACE
 )
 add_library(NUCLEO_H745ZI_Q_usb_none INTERFACE)
 target_compile_options(NUCLEO_H745ZI_Q_usb_none INTERFACE
+)
+add_library(NUCLEO_H745ZI_Q_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_H745ZI_Q_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
 )
 add_library(NUCLEO_H745ZI_Q_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_H745ZI_Q_xusb_FS INTERFACE
@@ -109544,6 +110717,10 @@ target_compile_options(NUCLEO_H753ZI_usb_HID INTERFACE
 add_library(NUCLEO_H753ZI_usb_none INTERFACE)
 target_compile_options(NUCLEO_H753ZI_usb_none INTERFACE
 )
+add_library(NUCLEO_H753ZI_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_H753ZI_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
+)
 add_library(NUCLEO_H753ZI_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_H753ZI_xusb_FS INTERFACE
 )
@@ -109623,6 +110800,10 @@ target_compile_options(NUCLEO_H7A3ZI_Q_usb_HID INTERFACE
 add_library(NUCLEO_H7A3ZI_Q_usb_none INTERFACE)
 target_compile_options(NUCLEO_H7A3ZI_Q_usb_none INTERFACE
 )
+add_library(NUCLEO_H7A3ZI_Q_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_H7A3ZI_Q_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
+)
 add_library(NUCLEO_H7A3ZI_Q_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_H7A3ZI_Q_xusb_FS INTERFACE
 )
@@ -109699,6 +110880,9 @@ target_compile_options(NUCLEO_L010RB_usb_HID INTERFACE
 )
 add_library(NUCLEO_L010RB_usb_none INTERFACE)
 target_compile_options(NUCLEO_L010RB_usb_none INTERFACE
+)
+add_library(NUCLEO_L010RB_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_L010RB_usb_TinyUSB INTERFACE
 )
 add_library(NUCLEO_L010RB_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_L010RB_xusb_FS INTERFACE
@@ -109854,6 +111038,9 @@ target_compile_options(NUCLEO_L053R8_usb_HID INTERFACE
 add_library(NUCLEO_L053R8_usb_none INTERFACE)
 target_compile_options(NUCLEO_L053R8_usb_none INTERFACE
 )
+add_library(NUCLEO_L053R8_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_L053R8_usb_TinyUSB INTERFACE
+)
 add_library(NUCLEO_L053R8_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_L053R8_xusb_FS INTERFACE
 )
@@ -109931,6 +111118,9 @@ target_compile_options(NUCLEO_L073RZ_usb_HID INTERFACE
 add_library(NUCLEO_L073RZ_usb_none INTERFACE)
 target_compile_options(NUCLEO_L073RZ_usb_none INTERFACE
 )
+add_library(NUCLEO_L073RZ_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_L073RZ_usb_TinyUSB INTERFACE
+)
 add_library(NUCLEO_L073RZ_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_L073RZ_xusb_FS INTERFACE
 )
@@ -110007,6 +111197,9 @@ target_compile_options(NUCLEO_L152RE_usb_HID INTERFACE
 )
 add_library(NUCLEO_L152RE_usb_none INTERFACE)
 target_compile_options(NUCLEO_L152RE_usb_none INTERFACE
+)
+add_library(NUCLEO_L152RE_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_L152RE_usb_TinyUSB INTERFACE
 )
 add_library(NUCLEO_L152RE_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_L152RE_xusb_FS INTERFACE
@@ -110166,6 +111359,9 @@ target_compile_options(NUCLEO_L412RB_P_usb_HID INTERFACE
 add_library(NUCLEO_L412RB_P_usb_none INTERFACE)
 target_compile_options(NUCLEO_L412RB_P_usb_none INTERFACE
 )
+add_library(NUCLEO_L412RB_P_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_L412RB_P_usb_TinyUSB INTERFACE
+)
 add_library(NUCLEO_L412RB_P_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_L412RB_P_xusb_FS INTERFACE
 )
@@ -110324,6 +111520,9 @@ target_compile_options(NUCLEO_L433RC_P_usb_HID INTERFACE
 add_library(NUCLEO_L433RC_P_usb_none INTERFACE)
 target_compile_options(NUCLEO_L433RC_P_usb_none INTERFACE
 )
+add_library(NUCLEO_L433RC_P_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_L433RC_P_usb_TinyUSB INTERFACE
+)
 add_library(NUCLEO_L433RC_P_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_L433RC_P_xusb_FS INTERFACE
 )
@@ -110402,6 +111601,9 @@ target_compile_options(NUCLEO_L452RE_usb_HID INTERFACE
 )
 add_library(NUCLEO_L452RE_usb_none INTERFACE)
 target_compile_options(NUCLEO_L452RE_usb_none INTERFACE
+)
+add_library(NUCLEO_L452RE_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_L452RE_usb_TinyUSB INTERFACE
 )
 add_library(NUCLEO_L452RE_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_L452RE_xusb_FS INTERFACE
@@ -110482,6 +111684,9 @@ target_compile_options(NUCLEO_L452REP_usb_HID INTERFACE
 add_library(NUCLEO_L452REP_usb_none INTERFACE)
 target_compile_options(NUCLEO_L452REP_usb_none INTERFACE
 )
+add_library(NUCLEO_L452REP_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_L452REP_usb_TinyUSB INTERFACE
+)
 add_library(NUCLEO_L452REP_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_L452REP_xusb_FS INTERFACE
 )
@@ -110560,6 +111765,9 @@ target_compile_options(NUCLEO_L476RG_usb_HID INTERFACE
 )
 add_library(NUCLEO_L476RG_usb_none INTERFACE)
 target_compile_options(NUCLEO_L476RG_usb_none INTERFACE
+)
+add_library(NUCLEO_L476RG_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_L476RG_usb_TinyUSB INTERFACE
 )
 add_library(NUCLEO_L476RG_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_L476RG_xusb_FS INTERFACE
@@ -110640,6 +111848,10 @@ target_compile_options(NUCLEO_L496ZG_usb_HID INTERFACE
 add_library(NUCLEO_L496ZG_usb_none INTERFACE)
 target_compile_options(NUCLEO_L496ZG_usb_none INTERFACE
 )
+add_library(NUCLEO_L496ZG_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_L496ZG_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
+)
 add_library(NUCLEO_L496ZG_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_L496ZG_xusb_FS INTERFACE
 )
@@ -110718,6 +111930,10 @@ target_compile_options(NUCLEO_L496ZG-P_usb_HID INTERFACE
 )
 add_library(NUCLEO_L496ZG-P_usb_none INTERFACE)
 target_compile_options(NUCLEO_L496ZG-P_usb_none INTERFACE
+)
+add_library(NUCLEO_L496ZG-P_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_L496ZG-P_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
 )
 add_library(NUCLEO_L496ZG-P_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_L496ZG-P_xusb_FS INTERFACE
@@ -110798,6 +112014,10 @@ target_compile_options(NUCLEO_L4R5ZI_usb_HID INTERFACE
 add_library(NUCLEO_L4R5ZI_usb_none INTERFACE)
 target_compile_options(NUCLEO_L4R5ZI_usb_none INTERFACE
 )
+add_library(NUCLEO_L4R5ZI_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_L4R5ZI_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
+)
 add_library(NUCLEO_L4R5ZI_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_L4R5ZI_xusb_FS INTERFACE
 )
@@ -110876,6 +112096,10 @@ target_compile_options(NUCLEO_L4R5ZI_P_usb_HID INTERFACE
 )
 add_library(NUCLEO_L4R5ZI_P_usb_none INTERFACE)
 target_compile_options(NUCLEO_L4R5ZI_P_usb_none INTERFACE
+)
+add_library(NUCLEO_L4R5ZI_P_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_L4R5ZI_P_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
 )
 add_library(NUCLEO_L4R5ZI_P_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_L4R5ZI_P_xusb_FS INTERFACE
@@ -110956,6 +112180,10 @@ target_compile_options(NUCLEO_L552ZE_Q_usb_HID INTERFACE
 add_library(NUCLEO_L552ZE_Q_usb_none INTERFACE)
 target_compile_options(NUCLEO_L552ZE_Q_usb_none INTERFACE
 )
+add_library(NUCLEO_L552ZE_Q_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_L552ZE_Q_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
+)
 add_library(NUCLEO_L552ZE_Q_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_L552ZE_Q_xusb_FS INTERFACE
 )
@@ -111032,6 +112260,9 @@ target_compile_options(NUCLEO_U083RC_usb_HID INTERFACE
 )
 add_library(NUCLEO_U083RC_usb_none INTERFACE)
 target_compile_options(NUCLEO_U083RC_usb_none INTERFACE
+)
+add_library(NUCLEO_U083RC_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_U083RC_usb_TinyUSB INTERFACE
 )
 add_library(NUCLEO_U083RC_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_U083RC_xusb_FS INTERFACE
@@ -111111,6 +112342,9 @@ target_compile_options(NUCLEO_U385RG_Q_usb_HID INTERFACE
 )
 add_library(NUCLEO_U385RG_Q_usb_none INTERFACE)
 target_compile_options(NUCLEO_U385RG_Q_usb_none INTERFACE
+)
+add_library(NUCLEO_U385RG_Q_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_U385RG_Q_usb_TinyUSB INTERFACE
 )
 add_library(NUCLEO_U385RG_Q_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_U385RG_Q_xusb_FS INTERFACE
@@ -111192,6 +112426,10 @@ target_compile_options(NUCLEO_U575ZI_Q_usb_HID INTERFACE
 add_library(NUCLEO_U575ZI_Q_usb_none INTERFACE)
 target_compile_options(NUCLEO_U575ZI_Q_usb_none INTERFACE
 )
+add_library(NUCLEO_U575ZI_Q_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_U575ZI_Q_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
+)
 add_library(NUCLEO_U575ZI_Q_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_U575ZI_Q_xusb_FS INTERFACE
 )
@@ -111272,6 +112510,10 @@ target_compile_options(NUCLEO_U5A5ZJ_Q_usb_HID INTERFACE
 add_library(NUCLEO_U5A5ZJ_Q_usb_none INTERFACE)
 target_compile_options(NUCLEO_U5A5ZJ_Q_usb_none INTERFACE
 )
+add_library(NUCLEO_U5A5ZJ_Q_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_U5A5ZJ_Q_usb_TinyUSB INTERFACE
+  "SHELL:-DARDUINO_ARCH_TINYUSB"
+)
 add_library(NUCLEO_U5A5ZJ_Q_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_U5A5ZJ_Q_xusb_FS INTERFACE
 )
@@ -111348,6 +112590,9 @@ target_compile_options(NUCLEO_WB09KE_usb_HID INTERFACE
 )
 add_library(NUCLEO_WB09KE_usb_none INTERFACE)
 target_compile_options(NUCLEO_WB09KE_usb_none INTERFACE
+)
+add_library(NUCLEO_WB09KE_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_WB09KE_usb_TinyUSB INTERFACE
 )
 add_library(NUCLEO_WB09KE_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_WB09KE_xusb_FS INTERFACE
@@ -111428,6 +112673,9 @@ target_compile_options(NUCLEO_WB15CC_usb_HID INTERFACE
 add_library(NUCLEO_WB15CC_usb_none INTERFACE)
 target_compile_options(NUCLEO_WB15CC_usb_none INTERFACE
 )
+add_library(NUCLEO_WB15CC_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_WB15CC_usb_TinyUSB INTERFACE
+)
 add_library(NUCLEO_WB15CC_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_WB15CC_xusb_FS INTERFACE
 )
@@ -111507,6 +112755,9 @@ target_compile_options(NUCLEO_WBA55CG_usb_HID INTERFACE
 add_library(NUCLEO_WBA55CG_usb_none INTERFACE)
 target_compile_options(NUCLEO_WBA55CG_usb_none INTERFACE
 )
+add_library(NUCLEO_WBA55CG_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_WBA55CG_usb_TinyUSB INTERFACE
+)
 add_library(NUCLEO_WBA55CG_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_WBA55CG_xusb_FS INTERFACE
 )
@@ -111583,6 +112834,9 @@ target_compile_options(NUCLEO_WL33CC1_usb_HID INTERFACE
 )
 add_library(NUCLEO_WL33CC1_usb_none INTERFACE)
 target_compile_options(NUCLEO_WL33CC1_usb_none INTERFACE
+)
+add_library(NUCLEO_WL33CC1_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_WL33CC1_usb_TinyUSB INTERFACE
 )
 add_library(NUCLEO_WL33CC1_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_WL33CC1_xusb_FS INTERFACE
@@ -111661,6 +112915,9 @@ target_compile_options(NUCLEO_WL33CC2_usb_HID INTERFACE
 add_library(NUCLEO_WL33CC2_usb_none INTERFACE)
 target_compile_options(NUCLEO_WL33CC2_usb_none INTERFACE
 )
+add_library(NUCLEO_WL33CC2_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_WL33CC2_usb_TinyUSB INTERFACE
+)
 add_library(NUCLEO_WL33CC2_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_WL33CC2_xusb_FS INTERFACE
 )
@@ -111737,6 +112994,9 @@ target_compile_options(NUCLEO_WL55JC1_usb_HID INTERFACE
 )
 add_library(NUCLEO_WL55JC1_usb_none INTERFACE)
 target_compile_options(NUCLEO_WL55JC1_usb_none INTERFACE
+)
+add_library(NUCLEO_WL55JC1_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_WL55JC1_usb_TinyUSB INTERFACE
 )
 add_library(NUCLEO_WL55JC1_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_WL55JC1_xusb_FS INTERFACE
@@ -111896,6 +113156,9 @@ target_compile_options(P_NUCLEO_WB55_USB_DONGLE_usb_HID INTERFACE
 add_library(P_NUCLEO_WB55_USB_DONGLE_usb_none INTERFACE)
 target_compile_options(P_NUCLEO_WB55_USB_DONGLE_usb_none INTERFACE
 )
+add_library(P_NUCLEO_WB55_USB_DONGLE_usb_TinyUSB INTERFACE)
+target_compile_options(P_NUCLEO_WB55_USB_DONGLE_usb_TinyUSB INTERFACE
+)
 add_library(P_NUCLEO_WB55_USB_DONGLE_xusb_FS INTERFACE)
 target_compile_options(P_NUCLEO_WB55_USB_DONGLE_xusb_FS INTERFACE
 )
@@ -111974,6 +113237,9 @@ target_compile_options(P_NUCLEO_WB55RG_usb_HID INTERFACE
 )
 add_library(P_NUCLEO_WB55RG_usb_none INTERFACE)
 target_compile_options(P_NUCLEO_WB55RG_usb_none INTERFACE
+)
+add_library(P_NUCLEO_WB55RG_usb_TinyUSB INTERFACE)
+target_compile_options(P_NUCLEO_WB55RG_usb_TinyUSB INTERFACE
 )
 add_library(P_NUCLEO_WB55RG_xusb_FS INTERFACE)
 target_compile_options(P_NUCLEO_WB55RG_xusb_FS INTERFACE
@@ -114374,6 +115640,9 @@ target_compile_options(THUNDERPACK_F411_usb_HID INTERFACE
 add_library(THUNDERPACK_F411_usb_none INTERFACE)
 target_compile_options(THUNDERPACK_F411_usb_none INTERFACE
 )
+add_library(THUNDERPACK_F411_usb_TinyUSB INTERFACE)
+target_compile_options(THUNDERPACK_F411_usb_TinyUSB INTERFACE
+)
 add_library(THUNDERPACK_F411_xusb_FS INTERFACE)
 target_compile_options(THUNDERPACK_F411_xusb_FS INTERFACE
 )
@@ -114637,6 +115906,9 @@ target_compile_options(VCCGND_F103ZET6_usb_HID INTERFACE
 add_library(VCCGND_F103ZET6_usb_none INTERFACE)
 target_compile_options(VCCGND_F103ZET6_usb_none INTERFACE
 )
+add_library(VCCGND_F103ZET6_usb_TinyUSB INTERFACE)
+target_compile_options(VCCGND_F103ZET6_usb_TinyUSB INTERFACE
+)
 add_library(VCCGND_F103ZET6_xusb_FS INTERFACE)
 target_compile_options(VCCGND_F103ZET6_xusb_FS INTERFACE
 )
@@ -114833,6 +116105,9 @@ target_compile_options(VCCGND_F103ZET6_MINI_usb_HID INTERFACE
 )
 add_library(VCCGND_F103ZET6_MINI_usb_none INTERFACE)
 target_compile_options(VCCGND_F103ZET6_MINI_usb_none INTERFACE
+)
+add_library(VCCGND_F103ZET6_MINI_usb_TinyUSB INTERFACE)
+target_compile_options(VCCGND_F103ZET6_MINI_usb_TinyUSB INTERFACE
 )
 add_library(VCCGND_F103ZET6_MINI_xusb_FS INTERFACE)
 target_compile_options(VCCGND_F103ZET6_MINI_xusb_FS INTERFACE
@@ -115033,6 +116308,9 @@ target_compile_options(VCCGND_F407ZG_MINI_usb_HID INTERFACE
 )
 add_library(VCCGND_F407ZG_MINI_usb_none INTERFACE)
 target_compile_options(VCCGND_F407ZG_MINI_usb_none INTERFACE
+)
+add_library(VCCGND_F407ZG_MINI_usb_TinyUSB INTERFACE)
+target_compile_options(VCCGND_F407ZG_MINI_usb_TinyUSB INTERFACE
 )
 add_library(VCCGND_F407ZG_MINI_xusb_FS INTERFACE)
 target_compile_options(VCCGND_F407ZG_MINI_xusb_FS INTERFACE
@@ -115260,6 +116538,9 @@ target_compile_options(WEACT_G474CE_usb_HID INTERFACE
 add_library(WEACT_G474CE_usb_none INTERFACE)
 target_compile_options(WEACT_G474CE_usb_none INTERFACE
 )
+add_library(WEACT_G474CE_usb_TinyUSB INTERFACE)
+target_compile_options(WEACT_G474CE_usb_TinyUSB INTERFACE
+)
 add_library(WEACT_G474CE_xusb_FS INTERFACE)
 target_compile_options(WEACT_G474CE_xusb_FS INTERFACE
 )
@@ -115419,6 +116700,9 @@ target_compile_options(WEACT_WB55CGU6_usb_HID INTERFACE
 add_library(WEACT_WB55CGU6_usb_none INTERFACE)
 target_compile_options(WEACT_WB55CGU6_usb_none INTERFACE
 )
+add_library(WEACT_WB55CGU6_usb_TinyUSB INTERFACE)
+target_compile_options(WEACT_WB55CGU6_usb_TinyUSB INTERFACE
+)
 add_library(WEACT_WB55CGU6_xusb_FS INTERFACE)
 target_compile_options(WEACT_WB55CGU6_xusb_FS INTERFACE
 )
@@ -115451,7 +116735,7 @@ target_compile_definitions(WeActMiniH723VGTX INTERFACE
 	"ARDUINO_WeActMiniH723VGTX"
 	"BOARD_NAME=\"WeActMiniH723VGTX\""
 	"BOARD_ID=WeActMiniH723VGTX"
-	"VARIANT_H=\"variant_WeActMiniH723VGTX.h\""
+	"VARIANT_H=\"variant_generic.h\""
 )
 target_include_directories(WeActMiniH723VGTX INTERFACE
   ${CMAKE_CURRENT_LIST_DIR}/../system/STM32H7xx

@@ -49,6 +49,10 @@ int main(void)
 {
   initVariant();
 
+  #if defined(ARDUINO_ARCH_TINYUSB)
+  TinyUSB_Device_Init(0);
+  #endif
+
   setup();
 
   for (;;) {
@@ -56,6 +60,9 @@ int main(void)
     CoreCallback();
 #endif
     loop();
+    #if defined(ARDUINO_ARCH_TINYUSB)
+      yield(); // yield run usb background task
+    #endif
     serialEventRun();
   }
 

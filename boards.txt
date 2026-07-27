@@ -15750,6 +15750,8 @@ STeaMi.menu.xserial.disabled.build.xSerial=
 
 # USB connectivity
 Nucleo_144.menu.usb.none=None
+Nucleo_144.menu.usb.TinyUSB=Adafruit TinyUSB
+Nucleo_144.menu.usb.TinyUSB.build.enable_usb=-DARDUINO_ARCH_TINYUSB
 Nucleo_144.menu.usb.CDCgen=CDC (generic 'Serial' supersede U(S)ART)
 Nucleo_144.menu.usb.CDCgen.build.enable_usb={build.usb_flags} -DUSBD_USE_CDC
 Nucleo_144.menu.usb.CDC=CDC (no generic 'Serial')
