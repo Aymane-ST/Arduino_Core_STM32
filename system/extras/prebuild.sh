@@ -46,8 +46,11 @@ printf '\n-fmacro-prefix-map="%s"=.' "${prefix}" >>"$BUILD_PATH/sketch/build.opt
 
 # Force include of SrcWrapper library
 echo "#include <SrcWrapper.h>" >"$BUILD_PATH/sketch/requiredLibraries.cpp"
+# Force include of tinyusb library if required
+if echo "$BUILD_USB" | grep -q "USE_TINYUSB"; then
+  echo "#include <TinyUSB.h>" >>"$BUILD_PATH/sketch/requiredLibraries.cpp"
 # Force include of USBDevice library if required
-if [ -n "${BUILD_USB#*=}" ]; then
+elif [ -n "${BUILD_USB#*=}" ]; then
   echo "#include <USBDevice.h>" >>"$BUILD_PATH/sketch/requiredLibraries.cpp"
 fi
 # Force include of VirtIO library if required
