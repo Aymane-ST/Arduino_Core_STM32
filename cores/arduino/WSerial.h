@@ -6,6 +6,9 @@
 #if defined (USBCON) && defined(USBD_USE_CDC)
   #include "USBSerial.h"
 #endif /* USBCON && USBD_USE_CDC */
+#if defined(USE_TINYUSB)
+  #include "TinyUSBSerial.h"
+#endif
 #if defined(VIRTIOCON)
   #include "VirtIOSerial.h"
 #endif /* VIRTIOCON */
@@ -25,6 +28,26 @@
 
   extern void serialEventUSB(void) __attribute__((weak));
 #endif /* USBCON && USBD_USE_CDC */
+
+// #if defined(USE_TINYUSB)
+//   #define ENABLE_SERIALTINYUSB
+//   #if !defined(Serial)
+//     #define Serial SerialTinyUSB
+//     #define serialEvent serialEventTinyUSB
+//   #endif
+
+//   #if defined(ENABLE_SERIALTINYUSB)
+//     #define HAVE_SERIALTINYUSB
+//   #endif
+
+//   extern void serialEventTinyUSB(void) __attribute__((weak));
+// #endif
+
+#if defined(USE_TINYUSB)
+  #include "TinyUSBSerial.h"
+  #define HAVE_SERIALTINYUSB
+  extern void serialEventTinyUSB(void) __attribute__((weak));
+#endif
 
 #if defined(VIRTIOCON)
   #ifndef DISABLE_GENERIC_SERIALVIRTIO

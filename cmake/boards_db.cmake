@@ -107219,6 +107219,10 @@ target_compile_options(NUCLEO_F207ZG_usb_HID INTERFACE
 add_library(NUCLEO_F207ZG_usb_none INTERFACE)
 target_compile_options(NUCLEO_F207ZG_usb_none INTERFACE
 )
+add_library(NUCLEO_F207ZG_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F207ZG_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
+)
 add_library(NUCLEO_F207ZG_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F207ZG_xusb_FS INTERFACE
 )
@@ -107851,6 +107855,10 @@ target_compile_options(NUCLEO_F412ZG_usb_HID INTERFACE
 add_library(NUCLEO_F412ZG_usb_none INTERFACE)
 target_compile_options(NUCLEO_F412ZG_usb_none INTERFACE
 )
+add_library(NUCLEO_F412ZG_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F412ZG_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
+)
 add_library(NUCLEO_F412ZG_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F412ZG_xusb_FS INTERFACE
 )
@@ -107929,6 +107937,10 @@ target_compile_options(NUCLEO_F413ZH_usb_HID INTERFACE
 )
 add_library(NUCLEO_F413ZH_usb_none INTERFACE)
 target_compile_options(NUCLEO_F413ZH_usb_none INTERFACE
+)
+add_library(NUCLEO_F413ZH_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F413ZH_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
 )
 add_library(NUCLEO_F413ZH_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F413ZH_xusb_FS INTERFACE
@@ -108010,6 +108022,10 @@ target_compile_options(NUCLEO_F429ZI_usb_HID INTERFACE
 add_library(NUCLEO_F429ZI_usb_none INTERFACE)
 target_compile_options(NUCLEO_F429ZI_usb_none INTERFACE
 )
+add_library(NUCLEO_F429ZI_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F429ZI_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
+)
 add_library(NUCLEO_F429ZI_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F429ZI_xusb_FS INTERFACE
 )
@@ -108089,6 +108105,10 @@ target_compile_options(NUCLEO_F439ZI_usb_HID INTERFACE
 )
 add_library(NUCLEO_F439ZI_usb_none INTERFACE)
 target_compile_options(NUCLEO_F439ZI_usb_none INTERFACE
+)
+add_library(NUCLEO_F439ZI_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F439ZI_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
 )
 add_library(NUCLEO_F439ZI_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F439ZI_xusb_FS INTERFACE
@@ -108248,6 +108268,10 @@ target_compile_options(NUCLEO_F446ZE_usb_HID INTERFACE
 add_library(NUCLEO_F446ZE_usb_none INTERFACE)
 target_compile_options(NUCLEO_F446ZE_usb_none INTERFACE
 )
+add_library(NUCLEO_F446ZE_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F446ZE_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
+)
 add_library(NUCLEO_F446ZE_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F446ZE_xusb_FS INTERFACE
 )
@@ -108326,6 +108350,10 @@ target_compile_options(NUCLEO_F722ZE_usb_HID INTERFACE
 )
 add_library(NUCLEO_F722ZE_usb_none INTERFACE)
 target_compile_options(NUCLEO_F722ZE_usb_none INTERFACE
+)
+add_library(NUCLEO_F722ZE_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F722ZE_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
 )
 add_library(NUCLEO_F722ZE_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F722ZE_xusb_FS INTERFACE
@@ -108407,6 +108435,10 @@ target_compile_options(NUCLEO_F746ZG_usb_HID INTERFACE
 add_library(NUCLEO_F746ZG_usb_none INTERFACE)
 target_compile_options(NUCLEO_F746ZG_usb_none INTERFACE
 )
+add_library(NUCLEO_F746ZG_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F746ZG_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
+)
 add_library(NUCLEO_F746ZG_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F746ZG_xusb_FS INTERFACE
 )
@@ -108486,6 +108518,10 @@ target_compile_options(NUCLEO_F756ZG_usb_HID INTERFACE
 add_library(NUCLEO_F756ZG_usb_none INTERFACE)
 target_compile_options(NUCLEO_F756ZG_usb_none INTERFACE
 )
+add_library(NUCLEO_F756ZG_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F756ZG_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
+)
 add_library(NUCLEO_F756ZG_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F756ZG_xusb_FS INTERFACE
 )
@@ -108564,6 +108600,10 @@ target_compile_options(NUCLEO_F767ZI_usb_HID INTERFACE
 )
 add_library(NUCLEO_F767ZI_usb_none INTERFACE)
 target_compile_options(NUCLEO_F767ZI_usb_none INTERFACE
+)
+add_library(NUCLEO_F767ZI_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_F767ZI_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
 )
 add_library(NUCLEO_F767ZI_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_F767ZI_xusb_FS INTERFACE
@@ -109268,6 +109308,10 @@ target_compile_options(NUCLEO_H563ZI_usb_HID INTERFACE
 add_library(NUCLEO_H563ZI_usb_none INTERFACE)
 target_compile_options(NUCLEO_H563ZI_usb_none INTERFACE
 )
+add_library(NUCLEO_H563ZI_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_H563ZI_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
+)
 add_library(NUCLEO_H563ZI_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_H563ZI_xusb_FS INTERFACE
 )
@@ -109346,6 +109390,10 @@ target_compile_options(NUCLEO_H723ZG_usb_HID INTERFACE
 )
 add_library(NUCLEO_H723ZG_usb_none INTERFACE)
 target_compile_options(NUCLEO_H723ZG_usb_none INTERFACE
+)
+add_library(NUCLEO_H723ZG_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_H723ZG_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
 )
 add_library(NUCLEO_H723ZG_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_H723ZG_xusb_FS INTERFACE
@@ -109426,6 +109474,10 @@ target_compile_options(NUCLEO_H743ZI_usb_HID INTERFACE
 add_library(NUCLEO_H743ZI_usb_none INTERFACE)
 target_compile_options(NUCLEO_H743ZI_usb_none INTERFACE
 )
+add_library(NUCLEO_H743ZI_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_H743ZI_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
+)
 add_library(NUCLEO_H743ZI_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_H743ZI_xusb_FS INTERFACE
 )
@@ -109504,6 +109556,10 @@ target_compile_options(NUCLEO_H743ZI2_usb_HID INTERFACE
 )
 add_library(NUCLEO_H743ZI2_usb_none INTERFACE)
 target_compile_options(NUCLEO_H743ZI2_usb_none INTERFACE
+)
+add_library(NUCLEO_H743ZI2_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_H743ZI2_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
 )
 add_library(NUCLEO_H743ZI2_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_H743ZI2_xusb_FS INTERFACE
@@ -109584,6 +109640,10 @@ target_compile_options(NUCLEO_H745ZI_Q_usb_HID INTERFACE
 add_library(NUCLEO_H745ZI_Q_usb_none INTERFACE)
 target_compile_options(NUCLEO_H745ZI_Q_usb_none INTERFACE
 )
+add_library(NUCLEO_H745ZI_Q_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_H745ZI_Q_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
+)
 add_library(NUCLEO_H745ZI_Q_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_H745ZI_Q_xusb_FS INTERFACE
 )
@@ -109663,6 +109723,10 @@ target_compile_options(NUCLEO_H753ZI_usb_HID INTERFACE
 add_library(NUCLEO_H753ZI_usb_none INTERFACE)
 target_compile_options(NUCLEO_H753ZI_usb_none INTERFACE
 )
+add_library(NUCLEO_H753ZI_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_H753ZI_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
+)
 add_library(NUCLEO_H753ZI_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_H753ZI_xusb_FS INTERFACE
 )
@@ -109741,6 +109805,10 @@ target_compile_options(NUCLEO_H7A3ZI_Q_usb_HID INTERFACE
 )
 add_library(NUCLEO_H7A3ZI_Q_usb_none INTERFACE)
 target_compile_options(NUCLEO_H7A3ZI_Q_usb_none INTERFACE
+)
+add_library(NUCLEO_H7A3ZI_Q_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_H7A3ZI_Q_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
 )
 add_library(NUCLEO_H7A3ZI_Q_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_H7A3ZI_Q_xusb_FS INTERFACE
@@ -110759,6 +110827,10 @@ target_compile_options(NUCLEO_L496ZG_usb_HID INTERFACE
 add_library(NUCLEO_L496ZG_usb_none INTERFACE)
 target_compile_options(NUCLEO_L496ZG_usb_none INTERFACE
 )
+add_library(NUCLEO_L496ZG_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_L496ZG_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
+)
 add_library(NUCLEO_L496ZG_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_L496ZG_xusb_FS INTERFACE
 )
@@ -110837,6 +110909,10 @@ target_compile_options(NUCLEO_L496ZG-P_usb_HID INTERFACE
 )
 add_library(NUCLEO_L496ZG-P_usb_none INTERFACE)
 target_compile_options(NUCLEO_L496ZG-P_usb_none INTERFACE
+)
+add_library(NUCLEO_L496ZG-P_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_L496ZG-P_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
 )
 add_library(NUCLEO_L496ZG-P_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_L496ZG-P_xusb_FS INTERFACE
@@ -110917,6 +110993,10 @@ target_compile_options(NUCLEO_L4R5ZI_usb_HID INTERFACE
 add_library(NUCLEO_L4R5ZI_usb_none INTERFACE)
 target_compile_options(NUCLEO_L4R5ZI_usb_none INTERFACE
 )
+add_library(NUCLEO_L4R5ZI_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_L4R5ZI_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
+)
 add_library(NUCLEO_L4R5ZI_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_L4R5ZI_xusb_FS INTERFACE
 )
@@ -110996,6 +111076,10 @@ target_compile_options(NUCLEO_L4R5ZI_P_usb_HID INTERFACE
 add_library(NUCLEO_L4R5ZI_P_usb_none INTERFACE)
 target_compile_options(NUCLEO_L4R5ZI_P_usb_none INTERFACE
 )
+add_library(NUCLEO_L4R5ZI_P_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_L4R5ZI_P_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
+)
 add_library(NUCLEO_L4R5ZI_P_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_L4R5ZI_P_xusb_FS INTERFACE
 )
@@ -111074,6 +111158,10 @@ target_compile_options(NUCLEO_L552ZE_Q_usb_HID INTERFACE
 )
 add_library(NUCLEO_L552ZE_Q_usb_none INTERFACE)
 target_compile_options(NUCLEO_L552ZE_Q_usb_none INTERFACE
+)
+add_library(NUCLEO_L552ZE_Q_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_L552ZE_Q_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
 )
 add_library(NUCLEO_L552ZE_Q_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_L552ZE_Q_xusb_FS INTERFACE
@@ -111311,6 +111399,10 @@ target_compile_options(NUCLEO_U575ZI_Q_usb_HID INTERFACE
 add_library(NUCLEO_U575ZI_Q_usb_none INTERFACE)
 target_compile_options(NUCLEO_U575ZI_Q_usb_none INTERFACE
 )
+add_library(NUCLEO_U575ZI_Q_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_U575ZI_Q_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
+)
 add_library(NUCLEO_U575ZI_Q_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_U575ZI_Q_xusb_FS INTERFACE
 )
@@ -111390,6 +111482,10 @@ target_compile_options(NUCLEO_U5A5ZJ_Q_usb_HID INTERFACE
 )
 add_library(NUCLEO_U5A5ZJ_Q_usb_none INTERFACE)
 target_compile_options(NUCLEO_U5A5ZJ_Q_usb_none INTERFACE
+)
+add_library(NUCLEO_U5A5ZJ_Q_usb_TinyUSB INTERFACE)
+target_compile_options(NUCLEO_U5A5ZJ_Q_usb_TinyUSB INTERFACE
+  "SHELL:-DUSE_TINYUSB -DHAL_PCD_MODULE_ENABLED"
 )
 add_library(NUCLEO_U5A5ZJ_Q_xusb_FS INTERFACE)
 target_compile_options(NUCLEO_U5A5ZJ_Q_xusb_FS INTERFACE
