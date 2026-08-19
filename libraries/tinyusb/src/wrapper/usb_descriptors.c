@@ -1,4 +1,4 @@
-#include "tinyusb/src/tusb.h"
+#include "tusb.h"
 #include <string.h>
 
 #define USB_VID   0xCafe

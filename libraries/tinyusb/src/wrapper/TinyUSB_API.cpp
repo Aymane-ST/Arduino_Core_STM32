@@ -1,10 +1,10 @@
-#include "tinyusb/src/tusb_option.h"
+#include "tusb_option.h"
 
 #if CFG_TUD_ENABLED
 
 #include "TinyUSB_API.h"
 #include "Arduino.h"
-#include "tinyusb/src/tusb.h"
+#include "tusb.h"
 
 extern "C" {
 
