@@ -20,6 +20,10 @@
 #define ARDUINO_MAIN
 #include "Arduino.h"
 
+#if defined(USE_TINYUSB)
+  #include "TinyUSB_API.h"
+#endif
+
 // Force init to be called *first*, i.e. before static object allocation.
 // Otherwise, statically allocated objects that need HAL may fail.
 __attribute__((constructor(101))) void premain()
@@ -49,6 +53,14 @@ int main(void)
 {
   initVariant();
 
+#if defined(USE_TINYUSB)
+  #if defined(USE_USB_HS)
+    TinyUSB_Device_Init(1);
+  #else
+    TinyUSB_Device_Init(0);
+  #endif
+#endif
+
   setup();
 
   for (;;) {
@@ -56,6 +68,9 @@ int main(void)
     CoreCallback();
 #endif
     loop();
+#if defined(USE_TINYUSB)
+    yield();
+#endif
     serialEventRun();
   }
 
