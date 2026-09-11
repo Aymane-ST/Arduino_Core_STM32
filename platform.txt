@@ -31,6 +31,7 @@ cmsis_dsp={runtime.tools.CMSIS_DSP-1.17.0.path}
 cmsis_nn={runtime.tools.CMSIS_NN-7.0.0.path}
 cmsis_dev_dir={build.system.path}/Drivers/CMSIS/Device/ST/{build.series}
 usbd_core_dir={build.system.path}/Middlewares/ST/STM32_USB_Device_Library/Core
+tinyusb_dir={build.system.path}/Middlewares/tinyusb
 builtin_library_dir={build.core.path}/../../libraries
 SrcWrapper_include_dir={builtin_library_dir}/SrcWrapper/inc
 VirtIO_include_dir={builtin_library_dir}/VirtIO/inc
@@ -39,7 +40,7 @@ USBDevice_include_dir={builtin_library_dir}/USBDevice/inc
 
 # STM compile variables
 # ----------------------
-compiler.stm.extra_include="-I{build.source.path}" "-I{build.core.path}/avr" "-I{core_stm32_dir}" "-I{api_dir}/deprecated" "-I{api_dir}/deprecated-avr-comp" "-I{SrcWrapper_include_dir}" "-I{SrcWrapper_include_dir}/LL" "-I{hal_dir}/Inc" "-I{hal_dir}/Src" "-I{build.system.path}/{build.series}" "-I{USBDevice_include_dir}" "-I{usbd_core_dir}/Inc" "-I{usbd_core_dir}/Src" "-I{VirtIO_include_dir}" {build.virtio_extra_include}
+compiler.stm.extra_include="-I{build.source.path}" "-I{build.core.path}/avr" "-I{core_stm32_dir}" "-I{api_dir}/deprecated" "-I{api_dir}/deprecated-avr-comp" "-I{SrcWrapper_include_dir}" "-I{SrcWrapper_include_dir}/LL" "-I{hal_dir}/Inc" "-I{hal_dir}/Src" "-I{build.system.path}/{build.series}" "-I{USBDevice_include_dir}" "-I{usbd_core_dir}/Inc" "-I{usbd_core_dir}/Src" "-I{tinyusb_dir}/Src" "-I{builtin_library_dir}/tinyusb/src/wrapper" "-I{VirtIO_include_dir}" {build.virtio_extra_include}
 compiler.arm.cmsis.c.flags="-I{cmsis_dir}/Core/Include/" "-I{cmsis_dev_dir}/Include/" "-I{cmsis_dev_dir}/Source" "-I{cmsis_dev_dir}/Source/Templates/gcc/" "-I{cmsis_dsp}/Include" "-I{cmsis_dsp}/PrivateInclude"
 
 compiler.warning_flags=-w
@@ -108,7 +109,7 @@ compiler.elf2hex.extra_flags=
 
 # USB Flags
 # ---------
-build.usb_flags=-DUSBCON {build.usb_speed} -DUSBD_VID={build.vid} -DUSBD_PID={build.pid} -DHAL_PCD_MODULE_ENABLED
+build.usb_flags= {build.usb_speed} {build.usb_stack} -DUSBD_VID={build.vid} -DUSBD_PID={build.pid} -DHAL_PCD_MODULE_ENABLED
 
 # Specify defaults for vid/pid
 # Boards should specify either both, or neither of these.
@@ -145,6 +146,7 @@ build.info.flags=-D{build.series} -DARDUINO={runtime.ide.version} -DARDUINO_{bui
 build.family=GENERIC
 build.xSerial=-DHAL_UART_MODULE_ENABLED
 build.enable_usb=
+build.usb_stack=
 build.usb_speed=
 build.enable_virtio=
 build.peripheral_pins=
@@ -169,13 +171,13 @@ recipe.hooks.prebuild.1.pattern="{busybox}" sh "{extras.path}/prebuild.sh" "{bui
 # ---------------------
 
 ## Compile c files
-recipe.c.o.pattern="{compiler.path}{compiler.c.cmd}" {compiler.c.flags} {build.info.flags} {compiler.c.st_extra_flags} {compiler.c.extra_flags} {build.st_extra_flags} {build.extra_flags} {compiler.arm.cmsis.c.flags} {includes} "{source_file}" -o "{object_file}"
+recipe.c.o.pattern="{compiler.path}{compiler.c.cmd}" {compiler.c.flags} {build.info.flags} {compiler.c.st_extra_flags} {compiler.c.extra_flags} {build.st_extra_flags} {build.extra_flags} {build.enable_usb} {compiler.arm.cmsis.c.flags} {includes} "{source_file}" -o "{object_file}"
 
 ## Compile c++ files
-recipe.cpp.o.pattern="{compiler.path}{compiler.cpp.cmd}" {compiler.cpp.flags} {build.info.flags} {compiler.cpp.extra_flags} {build.st_extra_flags} {build.extra_flags} {compiler.arm.cmsis.c.flags} {includes} "{source_file}" -o "{object_file}"
+recipe.cpp.o.pattern="{compiler.path}{compiler.cpp.cmd}" {compiler.cpp.flags} {build.info.flags} {compiler.cpp.extra_flags} {build.st_extra_flags} {build.extra_flags} {build.enable_usb} {compiler.arm.cmsis.c.flags} {includes} "{source_file}" -o "{object_file}"
 
 ## Compile S files
-recipe.S.o.pattern="{compiler.path}{compiler.S.cmd}" {compiler.S.flags} {build.info.flags} {compiler.S.st_extra_flags} {compiler.S.extra_flags} {build.st_extra_flags} {build.extra_flags} {compiler.arm.cmsis.c.flags} {includes} "{source_file}" -o "{object_file}"
+recipe.S.o.pattern="{compiler.path}{compiler.S.cmd}" {compiler.S.flags} {build.info.flags} {compiler.S.st_extra_flags} {compiler.S.extra_flags} {build.st_extra_flags} {build.extra_flags} {build.enable_usb} {compiler.arm.cmsis.c.flags} {includes} "{source_file}" -o "{object_file}"
 
 ## Create archives
 recipe.ar.pattern="{compiler.path}{compiler.ar.cmd}" {compiler.ar.flags} {compiler.ar.extra_flags} "{archive_file_path}" "{object_file}"

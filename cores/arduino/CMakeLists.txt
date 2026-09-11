@@ -47,6 +47,7 @@ add_library(core_bin STATIC EXCLUDE_FROM_ALL
   wiring_time.c
   WMath.cpp
   WSerial.cpp
+  TinyUSB_Port_STM32.cpp
 )
 target_link_libraries(core_bin PUBLIC core_usage)
 

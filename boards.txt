@@ -15774,13 +15774,26 @@ Phoque.menu.xserial.disabled=Disabled (no Serial support)
 Phoque.menu.xserial.disabled.build.xSerial=
 
 # USB connectivity
+
+# Global menu titles
+menu.usb=USB connectivity
+menu.usbstack=USB stack
+menu.xusb=USB speed
+
 Nucleo_144.menu.usb.none=None
-Nucleo_144.menu.usb.CDCgen=CDC (generic 'Serial' supersede U(S)ART)
+Nucleo_144.menu.usb.none.build.enable_usb=
+Nucleo_144.menu.usb.CDCgen=CDC (generic 'Serial' supersedes U(S)ART)
 Nucleo_144.menu.usb.CDCgen.build.enable_usb={build.usb_flags} -DUSBD_USE_CDC
 Nucleo_144.menu.usb.CDC=CDC (no generic 'Serial')
 Nucleo_144.menu.usb.CDC.build.enable_usb={build.usb_flags} -DUSBD_USE_CDC -DDISABLE_GENERIC_SERIALUSB
 Nucleo_144.menu.usb.HID=HID (keyboard and mouse)
 Nucleo_144.menu.usb.HID.build.enable_usb={build.usb_flags} -DUSBD_USE_HID_COMPOSITE
+Nucleo_144.menu.usb.cdchid=CDC + HID (TinyUSB only)
+Nucleo_144.menu.usb.cdchid.build.enable_usb={build.usb_flags} -DARDUINO_USB_MODE_CDC_HID
+Nucleo_144.menu.usbstack.legacy=USBDevice (legacy)
+Nucleo_144.menu.usbstack.legacy.build.usb_stack= -DUSBCON
+Nucleo_144.menu.usbstack.tinyusb=TinyUSB
+Nucleo_144.menu.usbstack.tinyusb.build.usb_stack= -DUSE_TINYUSB
 Nucleo_144.menu.xusb.FS=Low/Full Speed
 Nucleo_144.menu.xusb.HS=High Speed
 Nucleo_144.menu.xusb.HS.build.usb_speed=-DUSE_USB_HS
